@@ -15,12 +15,9 @@ export default function LogIn() {
         </View>
 
         <View>
-        <TouchableOpacity onPress={() => navigation.navigate("ForgetPass01")}>
-                        <Text className="font-bold text-teal">To Forgetpassword01</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate("Verifypassword")}>
+        {/* <TouchableOpacity onPress={() => navigation.navigate("Verifypassword")}>
                         <Text className="font-bold text-teal">To Verifypassword</Text>
-        </TouchableOpacity>
+        </TouchableOpacity> */}
         </View>
           <View className="flex items-center mx-5 space-y-4">
             <View className="bg-black/5 p-5 rounded-full mb-5 w-full">
