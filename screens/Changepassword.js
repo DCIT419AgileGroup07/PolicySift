@@ -15,7 +15,7 @@ export default function ForgetPass01() {
           <Image source={require("../assets/Images/rafiki3.png")} style={{width: 300, height: 250}}></Image>
         </View>
         
-        <View className=" flex space-y-4 mt-20 relative rounded-2xl border border-stone-600 mt-7 mb-20 ml-10 mr-10  p-5" >
+        <View className=" flex space-y-4 relative rounded-2xl border border-stone-600 mt-7 mb-20 ml-10 mr-10  p-5" >
           
             <View className="bg-black/5 p-2 rounded-full">
             <TextInput

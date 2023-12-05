@@ -10,12 +10,12 @@ export default function ForgetPass01() {
   return (
     <SafeAreaView className="flex-1" style={{backgroundColor: themeColors.bg}}>
       <View className="flex-1 flex justify-center mt-10 ">
-        <Text className="text-[#115E67] font-bold text-3xl text-center mt-2 mb-15">Forget password</Text>
+        <Text className="text-[#115E67] font-bold text-3xl text-center mt-2 mb-15">Reset Password</Text>
         <View className="flex-row justify-center mt-10 mb-5 ">
           <Image source={require("../assets/Images/rafiki2.png")} style={{width: 300, height: 250}}></Image>
         </View>
         
-        <View className=" flex space-y-4 mt-20 relative rounded-2xl border border-stone-600 mt-7 mb-20 ml-10 mr-10  p-5" >
+        <View className=" flex space-y-4 relative rounded-2xl border border-stone-600 mt-7 mb-20 ml-10 mr-10  p-5" >
           <Text className="text-center " >  We will send mail to the email address you registered 
           with to regain your password</Text>
             <View className="bg-black/5 p-2 rounded-full">
