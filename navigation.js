@@ -34,3 +34,14 @@ export default function Navigation() {
   </NavigationContainer>
   )
 }
+
+
+// useEffect(() => {
+//   const backHandler = BackHandler.addEventListener('hardwareBackPress', () => {
+//     return true;
+//   });
+//   return () => {
+//     backHandler.remove();
+//   };
+// }, []);
+// export default function Navbar()
