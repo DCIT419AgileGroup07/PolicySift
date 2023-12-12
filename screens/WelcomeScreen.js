@@ -14,7 +14,7 @@ export default function WelcomeScreen() {
             <Image source={require("../assets/Images/amico.png")}
                     style={{width: 250, height: 250}} />
             </View>
-                <View className="space-y-4 mt-20">
+                <View className="space-y-4 mt-5">
                     <TouchableOpacity className="py-3 bg-[#115E67] mx-7 rounded-xl" 
                                         onPress={() => navigation.navigate("SignUp")}>
                         <Text className="text-2xl font-bold text-center text-white">Sign Up</Text>
