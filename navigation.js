@@ -1,7 +1,9 @@
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 
 const Stack = createNativeStackNavigator();
+const Tab = createBottomTabNavigator();
 
 import { View, Text } from 'react-native'
 import React from 'react'
@@ -43,5 +45,16 @@ export default function Navigation() {
             <Stack.Screen name="ProfileScreen" component={ProfileScreen}/>
         </Stack.Navigator>
   </NavigationContainer>
+  )
+}
+
+export const Navbar = () => {
+  return (
+    <Tab.Navigator>
+        <Tab.Screen name='Home' component={WhatPolicy}/>
+        <Tab.Screen name='Insurance' component={Insurance}/>
+        <Tab.Screen name='Claims' component={ClaimsScreen}/>
+        <Tab.Screen name='Profile' component={ProfileScreen}/>
+    </Tab.Navigator>
   )
 }
