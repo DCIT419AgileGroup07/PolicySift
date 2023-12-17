@@ -15,12 +15,6 @@ export default function LogIn() {
         </View>
 
         <View>
-        {/* <TouchableOpacity onPress={() => navigation.navigate("ForgetPass01")}>
-                        <Text className="font-bold text-teal">To Forgetpassword01</Text>
-        </TouchableOpacity>
-        <TouchableOpacity onPress={() => navigation.navigate("Verifypassword")}>
-                        <Text className="font-bold text-teal">To Verifypassword</Text>
-        </TouchableOpacity> */}
         </View>
           <View className="flex items-center mx-5 space-y-4">
             <View className="bg-black/5 p-5 rounded-full mb-5 w-full">
@@ -41,7 +35,7 @@ export default function LogIn() {
               </TouchableOpacity>
             </View>
             <View>
-            <TouchableOpacity onPress={() => navigation.navigate("WhatPolicy")}
+            <TouchableOpacity onPress={() => navigation.navigate("RootNavigator")}
                               className="bg-[#115E67] py-4 px-[120] rounded-full mb-3">
                         <Text className="text-2xl font-bold text-white text-center">Sign In</Text>
                     </TouchableOpacity>

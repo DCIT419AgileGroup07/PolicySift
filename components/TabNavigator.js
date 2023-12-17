@@ -10,7 +10,7 @@ import Insurance from '../screens/Insurance';
 const Tab = createBottomTabNavigator();
 
 
-const Navbar = () => {
+const TabNavigator = () => {
   return (
     <Tab.Navigator>
         <Tab.Screen name='Home' component={WhatPolicy}/>
@@ -20,5 +20,4 @@ const Navbar = () => {
     </Tab.Navigator>
   )
 }
-
-export default Navbar
+export default TabNavigator

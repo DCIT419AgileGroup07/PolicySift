@@ -1,21 +1,15 @@
 import React, { useEffect } from 'react';
 import { BackHandler, View, Text, Image, SafeAreaView, TouchableOpacity} from 'react-native';
 import { useNavigation, useFocusEffect } from '@react-navigation/core';
-//import { NavigationContainer } from '@react-navigation/native';
-// import Navbar from '../components/Navbar';
+
 
 
 export default function WhatPolicy() {
   const navigation = useNavigation();
 
   return (
-
-    // <NavigationContainer independent={true}>
-    //   <Navbar/>
-    // </NavigationContainer>
-
-    <SafeAreaView>
-      <View className="flex-row justify-center mt-10 ">
+    <SafeAreaView className='my-auto'>
+      <View className="flex-row justify-center">
         <Image source={require("../assets/Images/logo.png")}/>
       </View>
       <View className='flex-row justify-center mt-10'>
@@ -47,8 +41,7 @@ export default function WhatPolicy() {
         <View>
           <TouchableOpacity
             className="py-5 bg-[#cef3f0] mb-5 mx-7 rounded-xl items-center"
-            onPress={() => navigation.navigate("HealthPolicy")}
-          >
+            onPress={() => navigation.navigate("HealthPolicy")}>
             <Text className='font-semibold'>Health Insurance</Text>
           </TouchableOpacity>
         </View>

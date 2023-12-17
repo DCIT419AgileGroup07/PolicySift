@@ -7,7 +7,6 @@ const { width } = Dimensions.get("window");
 
 export default function OnboardingScreen() {
   const navigation = useNavigation();
-// Navigate to the next screen 
   const handleDone = () => {
     navigation.navigate('WelcomeScreen');
   }
