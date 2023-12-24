@@ -23,7 +23,7 @@ export default function OnboardingScreen() {
             image: <Image
               style={{ width: 300, height: 300 }}
               source={require('../assets/Images/img1.png')} />,
-            title: 'Your Path to Financial Security',
+            title: 'Your Path To Financial Security',
             subtitle: 'Discover Tailored Insurance Solutions Just for You',
           },
           {
