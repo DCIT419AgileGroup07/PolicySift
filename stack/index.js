@@ -38,7 +38,7 @@ const RootNavigator = () => {
 const HomeTabs = () => {
   return (
     <Tab.Navigator screenOptions={{headerShown:false}}>
-        <Tab.Screen name='Home' component={WhatPolicy}/>
+        <Tab.Screen name='Home' component={WhatPolicy} options={{headerShown: false, gestureEnabled: false}}/>
         <Tab.Screen name='Insurance' component={InsuranceStackNavigator}/>
         <Tab.Screen name='Claims' component={ClaimsStackNavigator}/>
         <Tab.Screen name='Profile' component={ProfileStackNavigator}/>
