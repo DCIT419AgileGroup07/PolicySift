@@ -5,6 +5,8 @@ import { createStackNavigator } from '@react-navigation/stack';
 import { createBottomTabNavigator} from '@react-navigation/bottom-tabs';
 import { createMaterialBottomTabNavigator } from '@react-navigation/material-bottom-tabs';
 import { useNavigation } from '@react-navigation/native';
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+
 
 import HomeScreen from '../screens/HomeScreen';
 import Onboarding from '../screens/Onboarding';
@@ -38,10 +40,17 @@ const RootNavigator = () => {
 const HomeTabs = () => {
   return (
     <Tab.Navigator screenOptions={{headerShown:false}}>
-        <Tab.Screen name='Home' component={WhatPolicy} options={{headerShown: false, gestureEnabled: false}}/>
-        <Tab.Screen name='Insurance' component={InsuranceStackNavigator}/>
-        <Tab.Screen name='Claims' component={ClaimsStackNavigator}/>
-        <Tab.Screen name='Profile' component={ProfileStackNavigator}/>
+        <Tab.Screen name='Home' component={WhatPolicy} options={{ tabBarIcon: ({ color }) => (
+        <MaterialCommunityIcons name="home" color={color} size={26} />)}} />
+
+        <Tab.Screen name='Insurance' component={InsuranceStackNavigator} options={{ tabBarIcon: ({ color }) => (
+        <MaterialCommunityIcons name="shield" color={color} size={26} />)}}/>
+        
+        <Tab.Screen name='Claims' component={ClaimsStackNavigator} options={{ tabBarIcon: ({ color }) => (
+        <MaterialCommunityIcons name="hand-coin" color={color} size={26} />)}}/>
+        
+        <Tab.Screen name='Profile' component={ProfileStackNavigator} options={{ tabBarIcon: ({ color }) => (
+        <MaterialCommunityIcons name="account" color={color} size={26} />)}}/>
     </Tab.Navigator>
   )
 }
