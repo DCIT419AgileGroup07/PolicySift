@@ -31,7 +31,7 @@ const Stack = createNativeStackNavigator();
 const RootNavigator = () => {
     const navigation = useNavigation();
     return(
-        <Stack.Navigator screenOptions={{headerShown:false}}>
+        <Stack.Navigator screenOptions={{headerShown:false, gestureDirection: false, gestureEnabled: false }}>
             <Stack.Screen name='HomeStack' component={HomeStackNavigator}/>
         </Stack.Navigator>
     )
@@ -40,6 +40,7 @@ const RootNavigator = () => {
 const HomeTabs = () => {
   return (
     <Tab.Navigator screenOptions={{headerShown:false}}>
+
         <Tab.Screen name='Home' component={WhatPolicy} options={{ tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="home" color={color} size={26} />)}} />
 
@@ -51,6 +52,7 @@ const HomeTabs = () => {
         
         <Tab.Screen name='Profile' component={ProfileStackNavigator} options={{ tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="account" color={color} size={26} />)}}/>
+        
     </Tab.Navigator>
   )
 }
