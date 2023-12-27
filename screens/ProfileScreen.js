@@ -38,14 +38,13 @@ export default function ProfileScreen() {
       </View>
       
       <View>
-        <Text className='mx-5 text-xl text-[#115E67] font-bold'>Settings</Text>
+        <Text className='mx-5 mt-2 text-xl text-[#115E67] font-bold'>Settings</Text>
         <TouchableOpacity>
-
+      
         </TouchableOpacity>
       </View>
 
       </View>
-    {/* <Text>Some Content</Text> */}
 </ImageBackground>
 </SafeAreaView>
   )
