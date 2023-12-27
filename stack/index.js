@@ -13,8 +13,6 @@ import Onboarding from '../screens/Onboarding';
 import LogIn from '../screens/LogIn';
 import SignUp from '../screens/SignUp';
 import WelcomeScreen from '../screens/WelcomeScreen';
-import ForgetPass01 from '../screens/ForgetPass01';
-import Verifypassword from '../screens/Verifypassword';
 import WhatPolicy from '../screens/WhatPolicy';
 import Changepassword from '../screens/Changepassword';
 import Verifynumber from '../screens/Verifynumber';

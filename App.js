@@ -9,6 +9,12 @@ import LogIn from './screens/LogIn';
 import SignUp from './screens/SignUp';
 import WelcomeScreen from './screens/WelcomeScreen';
 import RootNavigator from './stack';
+import Changepassword from './screens/Changepassword'
+import Verifynumber from './screens/Verifynumber';
+import Verifypassword from './screens/Verifypassword';
+import ForgetPass01 from './screens/ForgetPass01';
+
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -23,6 +29,10 @@ const AppNavigator = () => (
       <Stack.Screen name='LogIn' component={LogIn}/>
       <Stack.Screen name='SignUp' component={SignUp}/>
       <Stack.Screen name='RootNavigator' component={RootNavigator}/>
+      <Stack.Screen name='Changepassword' component={Changepassword}/>
+      <Stack.Screen name='Verifypassword' component={Verifypassword}/>
+      <Stack.Screen name='ForgetPass01'component={ForgetPass01}/>
+      <Stack.Screen name='Verifynumber' component={Verifynumber}/>
     </Stack.Navigator>
   </NavigationContainer>
   
