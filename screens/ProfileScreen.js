@@ -1,4 +1,4 @@
-import { View, Text, Image, SafeAreaView, ImageBackground, TouchableOpacity, Touchable} from 'react-native'
+import { View, Text, Image, SafeAreaView, ImageBackground, TouchableOpacity, ScrollView} from 'react-native'
 import React from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/core';
@@ -7,6 +7,7 @@ import { useNavigation } from '@react-navigation/core';
 export default function ProfileScreen() {
   const navigation = useNavigation();
   return (
+    <ScrollView>
     <SafeAreaView>
     <ImageBackground
     source={require("../assets/Images/greenunsplash.jpg")}
@@ -14,7 +15,6 @@ export default function ProfileScreen() {
       width: '100%', // applied to Image
       height: '100%' 
     }}>
-      
       <View className='bg-white rounded-t-3xl mt-40' style={{
       width: '100%', 
       height: '100%' 
@@ -62,9 +62,24 @@ export default function ProfileScreen() {
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Sign out</Text>
         </TouchableOpacity>
 
+        {/* <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3'
+        onPress={() => navigation.navigate("SignUp")}>
+          <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Sign out</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3'
+        onPress={() => navigation.navigate("SignUp")}>
+          <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Sign out</Text>
+        </TouchableOpacity> */}
+
+        <TouchableOpacity className='bg-white mx-5 py-3 rounded-2xl mt-3'>
+          <Text ></Text>
+        </TouchableOpacity>
+
             </View>
       </View>
 </ImageBackground>
 </SafeAreaView>
+</ScrollView>
   )
 }
