@@ -24,7 +24,7 @@ export default function WhatPolicy() {
       <View className='mt-5'>
         <View>
           <TouchableOpacity
-            className="py-5 bg-[#4ECFD4] mb-5 mx-7 rounded-xl items-center"
+            className="py-5 bg-[#115E67] mb-5 mx-7 rounded-xl items-center"
             onPress={() => navigation.navigate("GeneralPolicy")}
           >
             <Text className='font-bold text-white'>GENERAL INSURANCE</Text>
@@ -32,7 +32,7 @@ export default function WhatPolicy() {
         </View>
         <View>
           <TouchableOpacity
-            className="py-5 bg-[#4ECFD4] mb-5 mx-7 rounded-xl items-center"
+            className="py-5 bg-[#115E67] mb-5 mx-7 rounded-xl items-center"
             onPress={() => navigation.navigate("LifePolicy")}
           >
             <Text className='font-semibold text-white'>LIFE INSURANCE</Text>
@@ -40,7 +40,7 @@ export default function WhatPolicy() {
         </View>
         <View>
           <TouchableOpacity
-            className="py-5 bg-[#4ECFD4] mb-5 mx-7 rounded-xl items-center"
+            className="py-5 bg-[#115E67] mb-5 mx-7 rounded-xl items-center"
             onPress={() => navigation.navigate("HealthPolicy")}>
             <Text className='font-semibold text-white'>HEALTH INSURANCE</Text>
           </TouchableOpacity>
