@@ -25,12 +25,10 @@ export default function ProfileScreen() {
         <Text className='text-lg'>055 689 9376</Text>
         <Text className='text-base'>kadu-tekyi001@st.ug.edu.gh</Text>
       </View>
-      <View>
+      <View style={{height:'15%'}}>
         <Text className='mx-5 text-xl mb-2 text-[#115E67] font-bold'>Dashboard</Text>
-        <View className='bg-[#115E67] mx-5 rounded-3xl flex-row' style={{height:'30%'}}> 
-        <View className='mx-8 my-auto'>
-          <MaterialCommunityIcons  name='notebook'size={50} color={'white'}/>
-        </View>
+        <View className='bg-[#115E67] mx-5 rounded-3xl flex-row' style={{height:'60%'}}> 
+        <View className='mx-8 my-auto'><MaterialCommunityIcons  name='notebook'size={50} color={'white'}/></View>
         <View className='bg-white flex-col rounded-full my-auto' style={{height:'60%', width:'2%'}}></View>
         <View className='flex-col mx-4 text-white my-auto'>
           <Text className='text-white text-base'> Policy :</Text>
@@ -38,8 +36,9 @@ export default function ProfileScreen() {
         </View>
         </View>
       </View>
+      
       <View>
-        <Text className='mx-5 text-xl mb-2 text-[#115E67] font-bold'>Settings</Text>
+        <Text className='mx-5 text-xl text-[#115E67] font-bold'>Settings</Text>
         <TouchableOpacity>
 
         </TouchableOpacity>
