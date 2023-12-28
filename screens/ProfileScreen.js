@@ -58,7 +58,7 @@ export default function ProfileScreen() {
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3'
-        onPress={() => navigation.navigate("SignUp")}>
+        onPress={() => navigation.navigate("WelcomeScreen")}>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Sign out</Text>
         </TouchableOpacity>
 
@@ -71,10 +71,10 @@ export default function ProfileScreen() {
         onPress={() => navigation.navigate("SignUp")}>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Sign out</Text>
         </TouchableOpacity> */}
-
+        <View className='bg-white'>
         <TouchableOpacity className='bg-white mx-5 py-3 rounded-2xl mt-3'>
-          <Text ></Text>
         </TouchableOpacity>
+        </View>
 
             </View>
       </View>
