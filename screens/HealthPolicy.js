@@ -1,11 +1,16 @@
 import { View, Text,SafeAreaView,Image, TouchableOpacity } from 'react-native'
 import React from 'react'
+import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
+import { useNavigation } from '@react-navigation/native'
 
 export default function HealthPolicy() {
+  const navigation = useNavigation();
   return (
     <SafeAreaView className='my-auto'>
       <View className='flex-row justify-center mb-16'>
-        <Text className='text-3xl text-[#115E67] font-bold' >HEALTH INSURANCE</Text>
+      <View className='mx-2'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+        <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity></View>
+        <Text className='text-3xl mt-2 text-[#115E67] font-bold' >HEALTH INSURANCE</Text>
       </View>
 
         <TouchableOpacity>

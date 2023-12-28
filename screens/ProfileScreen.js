@@ -16,7 +16,9 @@ export default function ProfileScreen() {
       width: '100%', // applied to Image
       height: '100%' 
     }}>
-      <View className='bg-white rounded-t-3xl mt-40' style={{
+      {/* <View className='mt-5 ml-2'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+        <MaterialCommunityIcons name='arrow-left' size={35} color={'white'}/></TouchableOpacity></View> */}
+      <View className='bg-white rounded-t-3xl mt-44' style={{
       width: '100%', 
       height: '100%' 
     }}>
