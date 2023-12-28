@@ -31,7 +31,7 @@ export default function ProfileScreen() {
         <Text className='mx-5 text-xl mb-3 text-[#115E67] font-bold'>Dashboard</Text>
         <View className='bg-[#115E67] mx-5 rounded-3xl flex-row' style={{height:'65%'}}> 
         <View className='mx-8 my-auto'><MaterialCommunityIcons  name='notebook'size={50} color={'white'}/></View>
-        <View className='bg-white flex-col rounded-full my-auto' style={{height:'60%', width:'3%'}}></View>
+        <View className='bg-white flex-col rounded-full my-auto' style={{height:'60%', width:'1%'}}></View>
         <View className='flex-col mx-4 text-white my-auto'>
           <Text className='text-white text-base'> Policy :</Text>
           <Text className='text-white text-base'>Type    :</Text>
