@@ -14,8 +14,6 @@ import Verifynumber from './screens/Verifynumber';
 import Verifypassword from './screens/Verifypassword';
 import ForgetPass01 from './screens/ForgetPass01';
 
-
-
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
 

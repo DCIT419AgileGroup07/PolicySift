@@ -1,4 +1,4 @@
-import { View, Text, Image, SafeAreaView, ImageBackground, TouchableOpacity, ScrollView} from 'react-native'
+import { View, Text, SafeAreaView, ImageBackground, TouchableOpacity, ScrollView} from 'react-native'
 import React from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import Octicons from 'react-native-vector-icons/Octicons'
@@ -46,19 +46,19 @@ export default function ProfileScreen() {
         <Text className='mx-5 my-3 text-xl text-[#115E67] font-bold'>Settings</Text>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl flex-row'
-        onPress={() => navigation.navigate("Home")}>
+        onPress={() => navigation.navigate("Account")}>
           <View className='ml-2'><MaterialCommunityIcons  name='account-circle'size={26} color={'#115E67'}/></View>
             <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Account</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
-        onPress={() => navigation.navigate("Home")}>
+        onPress={() => navigation.navigate("AboutUs")}>
           <View className='ml-2'><MaterialCommunityIcons  name='information'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>About Us</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
-        onPress={() => navigation.navigate("Home")}>
+        onPress={() => navigation.navigate("Support")}>
           <View className='ml-2'><MaterialCommunityIcons  name='cellphone'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Support</Text>
         </TouchableOpacity>

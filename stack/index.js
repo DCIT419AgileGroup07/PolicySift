@@ -8,29 +8,28 @@ import { useNavigation } from '@react-navigation/native';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
-import HomeScreen from '../screens/HomeScreen';
-import Onboarding from '../screens/Onboarding';
-import LogIn from '../screens/LogIn';
-import SignUp from '../screens/SignUp';
-import WelcomeScreen from '../screens/WelcomeScreen';
 import WhatPolicy from '../screens/WhatPolicy';
-import Changepassword from '../screens/Changepassword';
-import Verifynumber from '../screens/Verifynumber';
 import GeneralPolicy  from '../screens/GeneralPolicy'
 import LifePolicy  from '../screens/LifePolicy'
 import HealthPolicy  from '../screens/HealthPolicy'
 import ClaimsScreen from '../screens/ClaimsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import Insurance from '../screens/Insurance';
+import Account from '../screens/Account';
+import AboutUs from '../screens/AboutUs';
+import Support from '../screens/Support';
 
 const Tab =  createMaterialBottomTabNavigator();
 const Stack = createNativeStackNavigator();
 
 const RootNavigator = () => {
-    const navigation = useNavigation();
+    
     return(
-        <Stack.Navigator screenOptions={{headerShown:false, gestureDirection: false, gestureEnabled: false }}>
+        <Stack.Navigator screenOptions={{headerShown:false }}>
             <Stack.Screen name='HomeStack' component={HomeStackNavigator}/>
+            <Stack.Screen name='ClaimsStack' component={ClaimsStackNavigator}/>
+            <Stack.Screen name='InsuranceStack' component={InsuranceStackNavigator}/>
+            <Stack.Screen name='ProfileStack' component={ProfileStackNavigator}/>
         </Stack.Navigator>
     )
 }
@@ -39,7 +38,7 @@ const HomeTabs = () => {
   return (
     <Tab.Navigator screenOptions={{headerShown:false}}>
 
-        <Tab.Screen name='Home' component={WhatPolicy} options={{ tabBarIcon: ({ color }) => (
+        <Tab.Screen name='Home' component={WhatPolicy} options={{gestureDirection: false, gestureEnabled: false ,tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="home" color={color} size={26} />)}} />
 
         <Tab.Screen name='Insurance' component={InsuranceStackNavigator} options={{ tabBarIcon: ({ color }) => (
@@ -94,6 +93,9 @@ const ProfileStackNavigator = () =>{
     return(
         <ProfileStack.Navigator screenOptions={{headerShown:false}}>
             <ProfileStack.Screen name='ProfileScreen' component={ProfileScreen}/>
+            <ProfileStack.Screen name='Account' component={Account}/>
+            <ProfileStack.Screen name='AboutUs' component={AboutUs}/>
+            <ProfileStack.Screen name='Support' component={Support}/>
         </ProfileStack.Navigator>
     )
 }
