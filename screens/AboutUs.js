@@ -19,7 +19,7 @@ export default function AboutUs() {
         <Text className='text-white text-2xl items-center'>About Us</Text>
         </View>
     </View>
-    <View className='items-center bg-[#115E67] mt-16 mb-28 mx-4'>
+    <View className='items-center bg-[#115E67] mt-16 mb-16 mx-4'>
         <ScrollView>
         <View className='items-center'><Image source={require("../assets/Images/logo.png")}/></View>
             <Text className='text-white text-lg'>
