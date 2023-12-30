@@ -19,24 +19,23 @@ export default function AboutUs() {
         <Text className='text-white text-2xl items-center'>About Us</Text>
         </View>
     </View>
-    <View className='items-center bg-[#115E67] my-18 mx-4'>
+    <View className='items-center bg-[#115E67] mt-16 mb-28 mx-4'>
         <ScrollView>
         <View className='items-center'><Image source={require("../assets/Images/logo.png")}/></View>
             <Text className='text-white text-lg'>
-                efosnfsfsnfksjnfsjbdfjsbdjsnconcncscsc ch uhdgyigsgfiup
-                gfgfgjbsdfbjsdhfbvhbh biubfslfobhfpsbfvhibsvibijvbksjfbv
-                sbldkfbkhfbsbf svipobfvpibfpvibsbohbfspffobb  isgfygsgiyos
-                gfpsfgbsoufgbpifbpbvipbfs ffiuasgfisbphssdb  f uh uidsh fviu 
-                fiudv iuv ipgsdigsiud gvpiudsg fviud viu dvgiud iugdfvig gigdv s
-                iug iys ysjg fviyg 8giughfwiuyfg7834gwf8w wr8ywwwaup[efpurf79e9
-                urfhiufiug yugsifsjohdfvboashfbhjvygf biefbhuebyervhsbfih  igfeygs
-                djfdshfbhuvyudbsbsjhdvbxjvzyf ipasghfpi hjfiugf sfduy byvb dhvb ijv
-                hv]vugbsdiv b if uaisyuv s y vuifv ibv yfiv idygsdhjvsdvj svyvbjy ys
-                fsgyuoslhvfduhvjbsdjvhbfjvhb dfvggfigfiyg ifgysgfisgdviysf sdhsbvr yf
-                hsye aiybfiy fb ffsuhdvjbdjhvhvb afhbshjvdvbjdhvdvyhvsdvildvk ysgd boa
-                svygvbytfwiegwvh f sh vslblv a hbah bhjbvb;akh hbdfkhvb kv;bsak aviab
-                kjk;bvlfv kbhv bgvrylyia v hbhcm,mkhf iuh  byjhvsdfvuvshdvjhfvjsvkjsf
-                vsjkdfhvjhv
+            Travelling is always an exciting activity be it for leisure or business. The fun and excitement come with the responsibility to make your journey safe. Your desire to have a fun-filled travel without worries is what we aim to achieve. Star's Travel Insurance provides cover for travelers
+            when they leave the shores of Ghana against a broad range of mishaps and host of unforeseen events that may occur in the course of their trip.
+            Benefits
+            The policy provides cover for Medical, Emergency Service & Repatriation up to €30,000
+            Additionally, we cover:{"\n"}
+            · Hospitalization{"\n"}
+            · Accidental death and permanent disablement{"\n"}
+            · Extended accommodation and travel expense{"\n"}
+            · Complimentary / Free Insurance Extension{"\n"}
+            · Loss of Personal Baggage{"\n"}
+            · Compensation for delay in the arrival of luggage{"\n"}
+            · Compensation (expense for replacement) for loss of essential documents{"\n"}
+            · Compensation for in-flight loss of checked-in luggage hijack Benefit{"\n"}
             </Text>
         </ScrollView>    
     </View>
