@@ -19,14 +19,16 @@ export default function AboutUs() {
         <Text className='text-white text-2xl items-center'>About Us</Text>
         </View>
     </View>
-    <View className='items-center bg-[#115E67] mt-16 mb-16 mx-4'>
+    <View className='items-center bg-[#115E67] my-16 mx-4'>
         <ScrollView>
         <View className='items-center'><Image source={require("../assets/Images/logo.png")}/></View>
             <Text className='text-white text-lg'>
-            Travelling is always an exciting activity be it for leisure or business. The fun and excitement come with the responsibility to make your journey safe. Your desire to have a fun-filled travel without worries is what we aim to achieve. Star's Travel Insurance provides cover for travelers
-            when they leave the shores of Ghana against a broad range of mishaps and host of unforeseen events that may occur in the course of their trip.
-            Benefits
-            The policy provides cover for Medical, Emergency Service & Repatriation up to €30,000
+            Travelling is always an exciting activity be it for leisure or business. 
+            The fun and excitement come with the responsibility to make your journey safe. 
+            Your desire to have a fun-filled travel without worries is what we aim to achieve. 
+            Star's Travel Insurance provides cover for travelers when they leave the shores of Ghana 
+            against a broad range of mishaps and host of unforeseen events that may occur in the course of their trip.
+            Benefits The policy provides cover for Medical, Emergency Service & Repatriation up to €30,000.
             Additionally, we cover:{"\n"}
             · Hospitalization{"\n"}
             · Accidental death and permanent disablement{"\n"}
