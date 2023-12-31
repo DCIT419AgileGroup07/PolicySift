@@ -16,7 +16,7 @@ export default function AboutUs() {
             <TouchableOpacity></TouchableOpacity>
         </View>
         <View className='items-center mt-3'>
-        <Text className='text-white text-2xl items-center'>About Us</Text>
+        <Text className='text-white text-2xl font-semibold items-center'>About Us</Text>
         </View>
     </View>
     <View className='items-center bg-[#115E67] my-16 mx-4'>
