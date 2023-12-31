@@ -13,6 +13,8 @@ import Changepassword from './screens/Changepassword'
 import Verifynumber from './screens/Verifynumber';
 import Verifypassword from './screens/Verifypassword';
 import ForgetPass01 from './screens/ForgetPass01';
+import StarLifeMain from './screens/StarLifeMain';
+
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -31,6 +33,7 @@ const AppNavigator = () => (
       <Stack.Screen name='Verifypassword' component={Verifypassword}/>
       <Stack.Screen name='ForgetPass01'component={ForgetPass01}/>
       <Stack.Screen name='Verifynumber' component={Verifynumber}/>
+      <Stack.Screen name='StarLifeMain' component={StarLifeMain}/>
     </Stack.Navigator>
   </NavigationContainer>
   
