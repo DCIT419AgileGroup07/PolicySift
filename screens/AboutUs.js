@@ -19,10 +19,11 @@ export default function AboutUs() {
         <Text className='text-white text-2xl font-semibold items-center'>About Us</Text>
         </View>
     </View>
-    <View className='items-center bg-[#115E67] my-16 mx-4'>
+    <View className='items-center bg-[#115E67] my-16 mx-'>
         <ScrollView>
         <View className='items-center'><Image source={require("../assets/Images/logo.png")}/></View>
-            <Text className='text-white text-lg'>
+             <View className='mx-4'>
+              <Text className='text-white text-lg'>
             Travelling is always an exciting activity be it for leisure or business. 
             The fun and excitement come with the responsibility to make your journey safe. 
             Your desire to have a fun-filled travel without worries is what we aim to achieve. 
@@ -39,6 +40,7 @@ export default function AboutUs() {
             · Compensation (expense for replacement) for loss of essential documents{"\n"}
             · Compensation for in-flight loss of checked-in luggage hijack Benefit{"\n"}
             </Text>
+            </View>
         </ScrollView>    
     </View>
     </ImageBackground>
