@@ -1,32 +1,33 @@
-import { View, Text, Image, TextInput } from 'react-native'
+import { View, Text, Image, TextInput, ScrollView } from 'react-native'
 import React from 'react'
 
 export default function Support() {
   return (
     <View>
-        <View className='items-center mt-12'><Text className='font-bold text-2xl text-[#115E67]'>Contact Us</Text></View>
+        <View className='items-center mt-12'><Text className='font-bold text-2xl text-[#034047]'>CONTACT US</Text></View>
       <View className='items-center mt-5'>
         <Image source={require("../assets/Images/contactus.png")}/>
     </View>
 
-    <View className="bg-black/5 p-5 border-2 border-[#115E67] rounded-full mb-5 w-full">
-            <TextInput
-                        placeholder="Enter fullname"
-                        placeholderTextColor={'gray'}/>
+    <View className='mx-5'>
+
+    <View className='mx-5 mb-1 '><Text className='text-lg text-[#115E67] font-semibold'>Fullname</Text></View>
+    <View className="p-3 border-2 border-[#115E67] rounded-full mb-2 w-full">
+            <TextInput className='text-xl'/>
     </View>
 
-    <View className="bg-black/5 p-5 border-2 border-[#115E67] rounded-full mb-5 w-full">
-            <TextInput
-                        placeholder="Enter fullname"
-                        placeholderTextColor={'gray'}/>
+    <View className='mx-5 mb-1 '><Text className='text-lg text-[#115E67] font-semibold'>Mobile phone</Text></View>
+    <View className="p-3 border-2 border-[#115E67] rounded-full mb-2 w-full">
+            <TextInput keyboardType='numeric'
+            className='text-xl'/>
     </View>
 
-    <View className="bg-black/5 p-5 border-2 border-[#115E67] rounded-full mb-5 w-full">
-            <TextInput
-                        placeholder="Enter fullname"
-                        placeholderTextColor={'gray'}/>
+    <View className='mx-5 mb-1 '><Text className='text-lg text-[#115E67] font-semibold'>Subject</Text></View>
+    <View className="p-3 border-2 border-[#115E67] rounded-full mb-2 w-full">
+            <TextInput className='text-xl'/>
     </View>
 
+    </View>
     </View>
   )
 }
