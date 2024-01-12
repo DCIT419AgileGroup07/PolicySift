@@ -15,17 +15,10 @@ export default function AboutUs() {
     }}>
       <View className='mt-8'>
     <View className='my-auto'>
-        {/* <View>
-            <TouchableOpacity></TouchableOpacity>
-        </View> */}
-        {/* <View className='mt-3  flex-row'>
-        <TouchableOpacity className=''><MaterialCommunityIcons name='chevron-left' size={50} color={'white'}/></TouchableOpacity>
-        <Text className='text-white text-2xl font-semibold  text-center'>About Us</Text>
-        </View> */}
     <View className='flex-row mb-3'>
-    <View className='mx-2'><TouchableOpacity className=' left-0' onPress={() => navigation.navigate("Home")}>
+    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("Home")}>
         <MaterialCommunityIcons name='chevron-left' size={45} color={'white'}/></TouchableOpacity></View>
-      <Text className='text-white text-2xl font-semibold mt-2 mx-auto text-center'>About Us</Text>
+      <Text className='text-white text-2xl font-semibold mt-2 mx-24 text-center'>About Us</Text>
     </View>
     </View>
     <View className='items-center bg-white my-4 mx-4 rounded-3xl'>
