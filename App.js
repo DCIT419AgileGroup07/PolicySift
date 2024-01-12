@@ -14,6 +14,9 @@ import Verifynumber from './screens/Verifynumber';
 import Verifypassword from './screens/Verifypassword';
 import ForgetPass01 from './screens/ForgetPass01';
 import StarLifeMain from './screens/StarLifeMain';
+import Account from './screens/Account';
+import AboutUs from './screens/AboutUs';
+import Support from './screens/Support';
 
 
 const Tab = createBottomTabNavigator();
@@ -34,6 +37,9 @@ const AppNavigator = () => (
       <Stack.Screen name='ForgetPass01'component={ForgetPass01}/>
       <Stack.Screen name='Verifynumber' component={Verifynumber}/>
       <Stack.Screen name='StarLifeMain' component={StarLifeMain}/>
+      <Stack.Screen name='Account' component={Account}/>
+      <Stack.Screen name='AboutUs' component={AboutUs}/>
+      <Stack.Screen name='Support' component={Support}/>
     </Stack.Navigator>
   </NavigationContainer>
   

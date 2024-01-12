@@ -15,9 +15,7 @@ import HealthPolicy  from '../screens/HealthPolicy'
 import ClaimsScreen from '../screens/ClaimsScreen';
 import ProfileScreen from '../screens/ProfileScreen';
 import Insurance from '../screens/Insurance';
-import Account from '../screens/Account';
-import AboutUs from '../screens/AboutUs';
-import Support from '../screens/Support';
+
 
 const Tab =  createMaterialBottomTabNavigator();
 const Stack = createNativeStackNavigator();
@@ -93,9 +91,6 @@ const ProfileStackNavigator = () =>{
     return(
         <ProfileStack.Navigator screenOptions={{headerShown:false}}>
             <ProfileStack.Screen name='ProfileScreen' component={ProfileScreen}/>
-            <ProfileStack.Screen name='Account' component={Account}/>
-            <ProfileStack.Screen name='AboutUs' component={AboutUs}/>
-            <ProfileStack.Screen name='Support' component={Support}/>
         </ProfileStack.Navigator>
     )
 }

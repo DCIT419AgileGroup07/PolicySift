@@ -1,8 +1,10 @@
 import { View, Text, ScrollView, Image , ImageBackground, SafeAreaView, TouchableOpacity } from 'react-native'
 import React from 'react'
+import { useNavigation } from '@react-navigation/core';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function AboutUs() {
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
     <ImageBackground
@@ -11,15 +13,22 @@ export default function AboutUs() {
       width: '100%', // applied to Image
       height: '100%' 
     }}>
-    <View>
-        <View>
+      <View className='mt-8'>
+    <View className='my-auto'>
+        {/* <View>
             <TouchableOpacity></TouchableOpacity>
-        </View>
-        <View className='items-center mt-3'>
-        <Text className='text-white text-2xl font-semibold items-center'>About Us</Text>
-        </View>
+        </View> */}
+        {/* <View className='mt-3  flex-row'>
+        <TouchableOpacity className=''><MaterialCommunityIcons name='chevron-left' size={50} color={'white'}/></TouchableOpacity>
+        <Text className='text-white text-2xl font-semibold  text-center'>About Us</Text>
+        </View> */}
+    <View className='flex-row mb-3'>
+    <View className='mx-2'><TouchableOpacity className=' left-0' onPress={() => navigation.navigate("Home")}>
+        <MaterialCommunityIcons name='chevron-left' size={45} color={'white'}/></TouchableOpacity></View>
+      <Text className='text-white text-2xl font-semibold mt-2 mx-auto text-center'>About Us</Text>
     </View>
-    <View className='items-center bg-white my-16 mx-4 rounded-3xl'>
+    </View>
+    <View className='items-center bg-white my-4 mx-4 rounded-3xl'>
         <ScrollView>
         <View className='items-center'><Image source={require("../assets/Images/logo.png")}/></View>
         <View className='items-center mb-2'><Text className='text-[#115E67] text-xl text-center font-bold'>Introducing Policy Sift: Your One-Stop Insurance App</Text></View>
@@ -60,6 +69,7 @@ export default function AboutUs() {
             
             </View>
         </ScrollView>    
+    </View>
     </View>
     </ImageBackground>
 </SafeAreaView>
