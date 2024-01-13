@@ -19,7 +19,7 @@
     "eas-cli": "^5.9.1",
     "expo": "~49.0.15",
     "expo-status-bar": "~1.6.0",
-    "expo-updates": "~0.18.18",
+    "expo-updates": "~0.18.19",
     "lottie-react-native": "5.1.6",
     "nativewind": "^2.0.11",
     "react": "18.2.0",
