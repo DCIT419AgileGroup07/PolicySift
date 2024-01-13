@@ -16,7 +16,7 @@ export default function AboutUs() {
       <View className='mt-8'>
     <View className='my-auto'>
     <View className='flex-row mb-3'>
-    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("Home")}>
+    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("ProfileScreen")}>
         <MaterialCommunityIcons name='chevron-left' size={45} color={'white'}/></TouchableOpacity></View>
       <Text className='text-white text-2xl font-semibold mt-2 mx-24 text-center'>About Us</Text>
     </View>

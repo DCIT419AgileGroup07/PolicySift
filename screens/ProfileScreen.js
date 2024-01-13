@@ -16,15 +16,11 @@ export default function ProfileScreen() {
       width: '100%', // applied to Image
       height: '100%' 
     }}>
-      {/* <View className='mt-5 ml-2'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
-        <MaterialCommunityIcons name='arrow-left' size={35} color={'white'}/></TouchableOpacity></View> */}
       <View className='bg-white rounded-t-3xl mt-44' style={{
       width: '100%', 
       height: '100%' 
     }}>
-      {/* <View className='mb-5'> 
-          <Image className='mb-5'source={require("../assets/Images/starlife.png")}/>
-      </View> */}
+
       <View className='items-center mb-5 '>
         <Text className='text-xl text-[#115E67] font-bold'>Kwabena AT</Text>
         <Text className='text-lg'>055 689 9376</Text>
@@ -55,6 +51,12 @@ export default function ProfileScreen() {
         onPress={() => navigation.navigate("AboutUs")}>
           <View className='ml-2'><MaterialCommunityIcons  name='information'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>About Us</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
+        onPress={() => navigation.navigate("WhatPolicy")}>
+          <View className='ml-2'><MaterialCommunityIcons  name='cellphone'size={26} color={'#115E67'}/></View>
+          <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Policies</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
