@@ -49,8 +49,6 @@ const AppNavigator = () => (
       <Stack.Screen name='StarPersonalGuide' component={StarPersonalGuide}/>
       <Stack.Screen name='StarInternationalTravels' component={StarInternationalTravels}/>
       <Stack.Screen name='AllianzGeneralMain' component={AllianzGeneralMain}/>
-      
-      {/* <Stack.Screen name='StarLifeMain' component={StarLifeMain}/> */}
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
