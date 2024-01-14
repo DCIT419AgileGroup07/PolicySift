@@ -42,7 +42,7 @@ export default function ProfileScreen() {
         <Text className='mx-5 my-3 text-xl text-[#115E67] font-bold'>Settings</Text>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl flex-row'
-        onPress={() => navigation.navigate("Account")}>
+        onPress={() => navigation.navigate("ForgetPass01")}>
           <View className='ml-2'><MaterialCommunityIcons  name='form-textbox-password' size={26} color={'#115E67'}/></View>
             <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Password</Text>
         </TouchableOpacity>
@@ -54,7 +54,7 @@ export default function ProfileScreen() {
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
-        onPress={() => navigation.navigate("HomeStack")}>
+        onPress={() => navigation.navigate("Home")}>
           <View className='ml-2'><MaterialCommunityIcons  name='note-text-outline'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Policies</Text>
         </TouchableOpacity>

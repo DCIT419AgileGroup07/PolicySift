@@ -35,7 +35,7 @@ export default function ForgetPass01() {
           
           <View>
             <TouchableOpacity className="py-4 mb-2 bg-[#4ECFD4] mx-20 rounded-full"
-                              onPress={() => navigation.navigate("Verifypassword")} >
+                              onPress={() => navigation.navigate("")} >
               <Text className="text-l font-bold text-center text-black">Save Now!</Text>
 
             </TouchableOpacity>
