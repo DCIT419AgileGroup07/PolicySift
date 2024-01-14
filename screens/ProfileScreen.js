@@ -43,25 +43,31 @@ export default function ProfileScreen() {
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl flex-row'
         onPress={() => navigation.navigate("Account")}>
-          <View className='ml-2'><MaterialCommunityIcons  name='account-circle'size={26} color={'#115E67'}/></View>
-            <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Account</Text>
+          <View className='ml-2'><MaterialCommunityIcons  name='form-textbox-password' size={26} color={'#115E67'}/></View>
+            <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Password</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
         onPress={() => navigation.navigate("AboutUs")}>
-          <View className='ml-2'><MaterialCommunityIcons  name='information'size={26} color={'#115E67'}/></View>
+          <View className='ml-2'><MaterialCommunityIcons  name='information-outline'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>About Us</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
         onPress={() => navigation.navigate("HomeStack")}>
-          <View className='ml-2'><MaterialCommunityIcons  name='cellphone'size={26} color={'#115E67'}/></View>
+          <View className='ml-2'><MaterialCommunityIcons  name='note-text-outline'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Policies</Text>
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
         onPress={() => navigation.navigate("Support")}>
           <View className='ml-2'><MaterialCommunityIcons  name='cellphone'size={26} color={'#115E67'}/></View>
+          <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Terms and Conditions</Text>
+        </TouchableOpacity>
+
+        <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
+        onPress={() => navigation.navigate("Support")}>
+          <View className='ml-2'><MaterialCommunityIcons  name='hours-24'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Support</Text>
         </TouchableOpacity>
 
