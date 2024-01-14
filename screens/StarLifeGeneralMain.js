@@ -23,40 +23,33 @@ export default function StarLifeGeneralMain() {
         </View>
 
         <View className="flex-row">
-           <TouchableOpacity onPress={() => navigation.navigate("StarMotor")} className="py-5 px-7 bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
-              <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 text-xs font-medium'>Star Motor </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Insurance Policy</Text>
+           <TouchableOpacity onPress={() => navigation.navigate("StarMotor")} style={{width: 155, height: 130}} className=" bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+              <Image source={require("../assets/Images/motor.png")} className='mt-7' style={{width: 70, height: 50}} />
+              <Text className='text-teal-800 mt-1 text-xs text-center font-medium'>Star Motor {"\n"} Insurance Policy </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("StarComprehensive")} className="py-5 px-3 bg-teal-50 elevation mt-7  mx-7 rounded-l items-center">
-            <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />            
-              <Text className='text-teal-800 text-xs font-medium'>Star Comprehensive </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Homeowners Policy  </Text>
+            <TouchableOpacity onPress={() => navigation.navigate("StarComprehensive")} style={{width: 155, height: 130}} className=" bg-teal-50 elevation mt-7  mx-7 rounded-l items-center">
+            <Image source={require("../assets/Images/Homeowner.png")} className='mt-7' style={{width: 70, height: 50}} />            
+              <Text className='text-teal-800 mt-1 text-xs text-center font-medium'>Star Comprehensive {"\n"} Homeowners Policy </Text>
             </TouchableOpacity> 
         </View>
 
         <View className="flex-row">
-           <TouchableOpacity onPress={() => navigation.navigate("StarAccidentPolicy")} className="py-3 px-2 bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
-              <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 text-xs font-medium'>Star Personal and </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Group Accident Policy </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Policy </Text>
+           <TouchableOpacity onPress={() => navigation.navigate("StarAccidentPolicy")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+              <Image source={require("../assets/Images/Accident_1.png")} className='mt-7' style={{width: 70, height: 50}} />
+              <Text className='text-teal-800 mt-1 text-xs text-center  font-medium'>Star Personal and {"\n"} Group Accident Policy</Text>
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("StarPersonalGuide")} className="py-6 px-8 bg-teal-50 elevation mt-7  mx-7 rounded-l items-center">
-              <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 text-xs font-medium'>Star Personal </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Guide Policy  </Text>
+            <TouchableOpacity onPress={() => navigation.navigate("StarPersonalGuide")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center">
+              <Image source={require("../assets/Images/Guide_policy.png")} className='mt-7' style={{width: 70, height: 50}} />
+              <Text className='text-teal-800 mt-1 text-xs text-center  font-medium'>Star Personal {"\n"} Guide Policy </Text>
             </TouchableOpacity> 
         </View>
 
-        <View className="flex-row">
-           <TouchableOpacity onPress={() => navigation.navigate("StarInternationalTravels")}  className="py-4 px-5 bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
-              <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 text-xs font-medium'>Star International </Text>
-              <Text className='text-teal-800 text-xs font-medium'>Travels Insurance</Text>
-              <Text className='text-teal-800 text-xs font-medium'>Policy</Text>
+        <View className="items-center">
+           <TouchableOpacity onPress={() => navigation.navigate("StarInternationalTravels")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+              <Image source={require("../assets/Images/plane.png")} className='mt-7' style={{width: 130, height: 50}} />
+              <Text className='text-teal-800 mt-1 text-xs text-center  font-medium'>Star International {"\n"} Travels Insurance {"\n"} Policy </Text>
             </TouchableOpacity>
 
             
