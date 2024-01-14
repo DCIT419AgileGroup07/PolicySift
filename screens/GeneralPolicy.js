@@ -8,11 +8,13 @@ export default function GeneralPolicy() {
   return (
     <SafeAreaView>
     <ScrollView>
-    <View className='flex-row justify-left mt-8 mb-1'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+    <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
         <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
     </View>
 
-    <View className='items-center my-3'><Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text></View>
+    <View className='items-center my-5'>
+    <Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
+    </View>
 
       <View>
       <TouchableOpacity onPress={() => navigation.navigate("StarLifeGeneralMain")}>
