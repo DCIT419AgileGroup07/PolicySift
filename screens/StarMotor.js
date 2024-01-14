@@ -23,8 +23,8 @@ export default function StarMotor() {
         </Text>
     </View>
 
-    <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-8 elevation rounded-xl items-center">
-             <Text className='font-medium text-white mx-3 mb-80'>
+    <View className="bg-[#115E67] mt-5 mx-8 elevation rounded-xl items-center">
+             <Text className='font-medium text-white mt-5 mx-3 mb-80'>
                   Our motor policy is designed to cover the legal liabilities of our 
                   insured as a result of the use of the motor vehicle and loss or damage to his own vehicle. Under our motor
                   portfolio, the following covers are pro

@@ -49,7 +49,7 @@ export default function AllianzGeneralMain() {
             </TouchableOpacity> 
         </View>
 
-        <View className=" items-center ">
+        <View className=" items-center mb-5 ">
            <TouchableOpacity   style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/img1.png")}  className='mt-7' style={{width: 70, height: 50}} />
               <Text className='text-teal-800 mt-1 text-center text-xs font-medium'>Star International {"\n"}Travels Insurance Policy </Text>

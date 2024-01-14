@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
+import { View, Text, Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import { useNavigation } from '@react-navigation/core';
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -8,6 +8,7 @@ export default function StarLifeGeneralMain() {
     const navigation = useNavigation();
   return (
     <SafeAreaView >
+      <ScrollView>
         <View className='flex-row justify-left mt-8 mb-1'>
             <View className=' mx-2'><TouchableOpacity onPress={() => navigation.navigate("GeneralPolicy")}>
             <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity></View>
@@ -46,7 +47,7 @@ export default function StarLifeGeneralMain() {
             </TouchableOpacity> 
         </View>
 
-        <View className="items-center">
+        <View className="items-center mb-5">
            <TouchableOpacity onPress={() => navigation.navigate("StarInternationalTravels")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/plane.png")} className='mt-7' style={{width: 130, height: 50}} />
               <Text className='text-teal-800 mt-1 text-xs text-center  font-medium'>Star International {"\n"} Travels Insurance {"\n"} Policy </Text>
@@ -54,7 +55,7 @@ export default function StarLifeGeneralMain() {
 
             
         </View>
-
+        </ScrollView>
     </SafeAreaView>
   )
 }
