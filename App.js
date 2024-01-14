@@ -13,10 +13,20 @@ import Changepassword from './screens/Changepassword'
 import Verifynumber from './screens/Verifynumber';
 import Verifypassword from './screens/Verifypassword';
 import ForgetPass01 from './screens/ForgetPass01';
+<<<<<<< HEAD
+import StarLifeGeneralMain from './screens/StarLifeGeneralMain';
+import StarMotor from './screens/StarMotor';
+import StarComprehensive from './screens/StarComprehensive';
+import StarAccidentPolicy from './screens/StarAccidentPolicy';
+import StarPersonalGuide from './screens/StarPersonalGuide';
+import StarInternationalTravels from './screens/StarInternationalTravels';
+import AllianzGeneralMain from './screens/AllianzGeneralMain';
+=======
 import StarLifeMain from './screens/StarLifeMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
+>>>>>>> dd9e7b4f9f5bd6c46c92dca9c0a43cf4f8ef8830
 
 
 const Tab = createBottomTabNavigator();
@@ -36,10 +46,21 @@ const AppNavigator = () => (
       <Stack.Screen name='Verifypassword' component={Verifypassword}/>
       <Stack.Screen name='ForgetPass01'component={ForgetPass01}/>
       <Stack.Screen name='Verifynumber' component={Verifynumber}/>
+<<<<<<< HEAD
+      <Stack.Screen name='StarLifeGeneralMain' component={StarLifeGeneralMain}/>
+      <Stack.Screen name='StarMotor' component={StarMotor}/>
+      <Stack.Screen name='StarComprehensive' component={StarComprehensive}/>
+      <Stack.Screen name='StarAccidentPolicy' component={StarAccidentPolicy}/>
+      <Stack.Screen name='StarPersonalGuide' component={StarPersonalGuide}/>
+      <Stack.Screen name='StarInternationalTravels' component={StarInternationalTravels}/>
+      <Stack.Screen name='AllianzGeneralMain' component={AllianzGeneralMain}/>
+      
+=======
       <Stack.Screen name='StarLifeMain' component={StarLifeMain}/>
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
+>>>>>>> dd9e7b4f9f5bd6c46c92dca9c0a43cf4f8ef8830
     </Stack.Navigator>
   </NavigationContainer>
   

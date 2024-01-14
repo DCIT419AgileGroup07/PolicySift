@@ -13,14 +13,14 @@ export default function GeneralPolicy() {
       <Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
     </View>
 
-      <TouchableOpacity onPress={() => navigation.navigate("StarLifeMain")}>
+      <TouchableOpacity onPress={() => navigation.navigate("StarLifeGeneralMain")}>
             <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/starlife.png")}/>
-            </View>
+            </View> 
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("AllianzGeneralMain")}>
             <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/Allianz.png")}/>
