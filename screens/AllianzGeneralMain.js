@@ -23,7 +23,7 @@ export default function AllianzGeneralMain() {
         </View>
 
         <View className="flex-row">
-           <TouchableOpacity onPress={() => navigation.navigate("StarMotor")} className="py-5 px-7 bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+           <TouchableOpacity onPress={() => navigation.navigate("StarMotor")}  className="py-5 px-7 bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/img1.png")} style={{width: 70, height: 50}} />
               <Text className='text-teal-800 text-xs font-medium'>Motor Insurance</Text>
               
