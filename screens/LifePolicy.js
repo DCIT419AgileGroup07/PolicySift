@@ -1,4 +1,4 @@
-import { View, Text,SafeAreaView,Image, TouchableOpacity } from 'react-native'
+import { View, Text,SafeAreaView,Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons'
 import { useNavigation } from '@react-navigation/native'
@@ -6,12 +6,13 @@ import { useNavigation } from '@react-navigation/native'
 export default function LifePolicy() {
   const navigation = useNavigation();
   return (
-    <SafeAreaView className='my-auto'>
-      <View className='flex-row justify-center mb-16'>
-      <View className='mx-2'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
-        <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity></View>
-        <Text className='text-3xl mt-2 text-[#115E67] font-bold' >LIFE INSURANCE</Text>
+    <SafeAreaView>
+      <ScrollView>
+      <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+        <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
       </View>
+
+      <View className='items-center my-5'><Text className='text-3xl mt-2 text-[#115E67] font-bold' >LIFE INSURANCE</Text></View>
 
         <TouchableOpacity>
               <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
@@ -42,8 +43,7 @@ export default function LifePolicy() {
               </View>
               <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
           </TouchableOpacity>
-
-          
+      </ScrollView>
     </SafeAreaView>
   )
 }

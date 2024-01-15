@@ -1,4 +1,4 @@
-import { View, Text,SafeAreaView,Image, TouchableOpacity } from 'react-native'
+import { View, Text,SafeAreaView,Image, TouchableOpacity, ScrollView } from 'react-native'
 import React from 'react'
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 import { useNavigation } from '@react-navigation/core';
@@ -6,13 +6,17 @@ import { useNavigation } from '@react-navigation/core';
 export default function GeneralPolicy() {
   const navigation = useNavigation();
   return (
-    <SafeAreaView className='my-auto'>
-    <View className='flex-row justify-center mb-16'>
-    <View className='mx-2'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
-        <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity></View>
-      <Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
+    <SafeAreaView>
+    <ScrollView>
+    <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+        <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
     </View>
 
+    <View className='items-center my-5'>
+    <Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
+    </View>
+
+      <View>
       <TouchableOpacity onPress={() => navigation.navigate("StarLifeGeneralMain")}>
             <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
@@ -42,8 +46,8 @@ export default function GeneralPolicy() {
             </View>
             <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
         </TouchableOpacity>
-
-        
+        </View>
+    </ScrollView>
   </SafeAreaView>
   )
 }
