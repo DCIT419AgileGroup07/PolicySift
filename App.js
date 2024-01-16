@@ -23,7 +23,22 @@ import AllianzGeneralMain from './screens/AllianzGeneralMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
-
+import GlicoLifeMain from './screens/GlicoLifeMain';
+import GlicoLifeSaving from './screens/GlicoLifeSaving';
+import GlicoFuneral from './screens/GlicoFuneral';
+import GlicoEducation from './screens/GlicoEducation';
+import GlicoEndService from './screens/GlicoEndService';
+import GlicoFamilyLife from './screens/GlicoFamilyLife';
+import StarLifeLifeMain from './screens/StarLifeLifeMain';
+import StarLifeInsurance from './screens/StarLifeInsurance';
+import HollardLifeMain from './screens/HollardLifeMain';
+import HollardPurpleEmployee from './screens/HollardPurpleEmployee';
+import HollardAdepaFamily from './screens/HollardAdepaFamily';
+import AllianzLifeMain from './screens/AllianzLifeMain';
+import AllianzEduflex from './screens/AllianzEduflex';
+import AllianzFarewell from './screens/AllianzFarewell';
+import AllianzTerm from './screens/AllianzTerm';
+import AllianzWealth from './screens/AllianzWealth';
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -52,6 +67,22 @@ const AppNavigator = () => (
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
+      <Stack.Screen name='GlicoLifeMain' component={GlicoLifeMain}/>
+      <Stack.Screen name='GlicoLifeSaving' component={GlicoLifeSaving}/>
+      <Stack.Screen name='GlicoFamilyLife' component={GlicoFamilyLife}/>
+      <Stack.Screen name='GlicoEducation' component={GlicoEducation}/>
+      <Stack.Screen name='GlicoFuneral' component={GlicoFuneral}/>
+      <Stack.Screen name='GlicoEndService' component={GlicoEndService}/>
+      <Stack.Screen name='StarLifeLifeMain' component={StarLifeLifeMain}/>
+      <Stack.Screen name='StarLifeInsurance' component={StarLifeInsurance}/>
+      <Stack.Screen name='HollardLifeMain' component={HollardLifeMain}/>
+      <Stack.Screen name='HollardPurpleEmployee' component={HollardPurpleEmployee}/>
+      <Stack.Screen name='HollardAdepaFamily' component={HollardAdepaFamily}/>
+      <Stack.Screen name='AllianzTerm' component={AllianzTerm}/>
+      <Stack.Screen name='AllianzFarewell' component={AllianzFarewell}/>
+      <Stack.Screen name='AllianzWealth' component={AllianzWealth}/>
+      <Stack.Screen name='AllianzEduflex' component={AllianzEduflex}/>
+      <Stack.Screen name='AllianzLifeMain' component={AllianzLifeMain}/>
     </Stack.Navigator>
   </NavigationContainer>
   
