@@ -23,6 +23,29 @@ import AllianzGeneralMain from './screens/AllianzGeneralMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
+import AllianzMotor from './screens/AllianzMotor';
+import AllianzHomePolicy from './screens/AllianzHomePolicy';
+import AllianzTravel from './screens/AllianzTravel';
+import HollardGeneralMain from './screens/HollardGeneralMain';
+import HollardPersonal from './screens/HollardPersonal';
+import HollardHome from './screens/HollardHome';
+import HollardTravel from './screens/HollardTravel';
+import HollardTravelComprehensive from './screens/HollardTravelComprehensive';
+import HollardTravelExecutive from './screens/HollardTravelExecutive';
+import GlicoGeneralMain from './screens/GlicoGeneralMain';
+import GlicoMotor from './screens/GlicoMotor';
+import GlicoMarine from './screens/GlicoMarine';
+import GlicoSpecialty from './screens/GlicoSpecialty';
+import GlicoFire from './screens/GlicoFire';
+
+
+
+
+
+
+
+
+
 
 
 const Tab = createBottomTabNavigator();
@@ -49,6 +72,26 @@ const AppNavigator = () => (
       <Stack.Screen name='StarPersonalGuide' component={StarPersonalGuide}/>
       <Stack.Screen name='StarInternationalTravels' component={StarInternationalTravels}/>
       <Stack.Screen name='AllianzGeneralMain' component={AllianzGeneralMain}/>
+      <Stack.Screen name='AllianzMotor' component={AllianzMotor}/>
+      <Stack.Screen name='AllianzHomePolicy' component={AllianzHomePolicy}/>
+      <Stack.Screen name='AllianzTravel' component={AllianzTravel}/>
+      <Stack.Screen name='HollardGeneralMain' component={HollardGeneralMain}/>
+      <Stack.Screen name='HollardPersonal' component={HollardPersonal}/>
+      <Stack.Screen name='HollardHome' component={HollardHome}/>
+      <Stack.Screen name='HollardTravel' component={HollardTravel}/>
+      <Stack.Screen name='HollardTravelComprehensive' component={HollardTravelComprehensive}/>
+      <Stack.Screen name='HollardTravelExecutive' component={HollardTravelExecutive}/>
+      <Stack.Screen name='GlicoGeneralMain' component={GlicoGeneralMain}/>
+      <Stack.Screen name='GlicoMotor' component={GlicoMotor}/>
+      <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
+      <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
+      <Stack.Screen name='GlicoFire' component={GlicoFire}/>
+   
+
+      
+      
+     
+    
       
     
       <Stack.Screen name='Account' component={Account}/>

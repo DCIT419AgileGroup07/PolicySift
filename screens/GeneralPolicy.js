@@ -31,7 +31,7 @@ export default function GeneralPolicy() {
             </View>
         </TouchableOpacity>
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("HollardGeneralMain")}>
           <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
           <View className='flex-row justify-center'>
             <Image source={require("../assets/Images/Hollard.png")}/>
@@ -39,7 +39,7 @@ export default function GeneralPolicy() {
         </TouchableOpacity>
 
 
-        <TouchableOpacity>
+        <TouchableOpacity onPress={() => navigation.navigate("GlicoGeneralMain")}>
             <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/Glico.png")}/>

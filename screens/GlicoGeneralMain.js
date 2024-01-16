@@ -4,7 +4,7 @@ import { useNavigation } from '@react-navigation/core';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
-export default function AllianzGeneralMain() {
+export default function GlicoGeneralMain() {
     const navigation = useNavigation();
   return (
     <SafeAreaView >
@@ -16,38 +16,40 @@ export default function AllianzGeneralMain() {
 
         
         <View className='flex-row justify-center '>
-            <Image source={require("../assets/Images/Allianz.png")} />
+            <Image source={require("../assets/Images/Glico.png")} />
         </View>
 
-        <View className="py-4 bg-[#115E67] mb-7 mx-20 rounded-xl items-center">
-             <Text className='font-bold text-white'>ALLIANZ GENERAL INSURANCE</Text>
+        <View className="py-4  bg-[#115E67] mb-7 mt-6 mx-20 rounded-xl items-center">
+             <Text className='font-bold text-white'>GLICO GENERAL INSURANCE</Text>
         </View>
 
         <View className="flex-row">
            
 
-           <TouchableOpacity onPress={() => navigation.navigate("AllianzMotor")}  style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+           <TouchableOpacity onPress={() => navigation.navigate("GlicoMotor")}  style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/Accident_1.png")} className='mt-7' style={{width: 70, height: 50}} />
               <Text className='text-teal-800 mt-1 text-xs text-center font-medium'>Motor Insurance</Text>
               
             </TouchableOpacity>
 
-            <TouchableOpacity onPress={() => navigation.navigate("AllianzHomePolicy")} className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center" style={{width: 155, height: 130}}>
+            <TouchableOpacity onPress={() => navigation.navigate("GlicoMarine")}  className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center" style={{width: 155, height: 130}}>
             <Image source={require("../assets/Images/img1.png")} className='mt-6' style={{width: 70, height: 50}} />            
              
-              <Text className='text-teal-800 mt-3 text-xs  text-center font-medium'>Home Insuarance  </Text>
+              <Text className='text-teal-800 mt-3 text-xs  text-center font-medium'>Marine Insuarance  </Text>
             </TouchableOpacity> 
         </View>
 
         <View className="flex-row mb-5 ">
-           <TouchableOpacity onPress={() => navigation.navigate("AllianzTravel")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+           <TouchableOpacity onPress={() => navigation.navigate("GlicoSpecialty")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/img1.png")} className='mt-6' style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 mt-1 text-center text-xs font-medium'> Travel Insurance </Text>
+              <Text className='text-teal-800 mt-1 text-center text-xs font-medium'> Specialty Risk {"\n"}
+                   Insurance  
+                </Text>
             </TouchableOpacity>
 
-            <TouchableOpacity style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+            <TouchableOpacity onPress={() => navigation.navigate("GlicoFire")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/img1.png")}  className='mt-5' style={{width: 70, height: 50}} />
-              <Text className='text-teal-800 mt-1 text-center text-xs font-medium'>GLICO Funeral {"\n"} Policy </Text>
+              <Text className='text-teal-800 mt-1 text-center text-xs font-medium'>Fire Insurance </Text>
             </TouchableOpacity> 
         </View>
 
