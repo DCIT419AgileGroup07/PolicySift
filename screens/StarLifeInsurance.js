@@ -1,19 +1,21 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { useNavigation } from '@react-navigation/core';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { useNavigation } from "@react-navigation/core";
+import { SafeAreaView } from "react-native-safe-area-context";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function StarLifeInsurance() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
-      <View className="flex-row justify-left mt-8 mb-7">
+      <View className="flex-row justify-left mt-2 mb-2">
         <View className=" mx-2">
-          <TouchableOpacity onPress={() => navigation.navigate("StarLifeLifeMain")}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("StarLifeLifeMain")}
+          >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>
@@ -26,22 +28,20 @@ export default function StarLifeInsurance() {
 
       <View className="flex-row justify-center">
         <Text className="font-extrabold mt-5 text-teal-900">
-        Star  Life  Insurance Policy
+          Star Life Insurance Policy
         </Text>
       </View>
 
       <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-4 elevation rounded-xl ">
         <Text className="font-medium text-white mx-3 mb-3 ">
-          The Employee Security Plan [ESP] is a comprehensive group life policy 
-          which also provides optional cover for a section of the employee’s 
+          The Employee Security Plan [ESP] is a comprehensive group life policy
+          which also provides optional cover for a section of the employee’s
           family.
         </Text>
+        <Text className="font-medium text-white mx-3 mb-2 ">MAIN BENEFITS</Text>
         <Text className="font-medium text-white mx-3 mb-2 ">
-          MAIN BENEFITS
-        </Text>
-        <Text className="font-medium text-white mx-3 mb-2 ">
-          -A lump sum payment equal to the sum assured as stated in the 
-          Policy Schedule will be paid to you in the event of:
+          -A lump sum payment equal to the sum assured as stated in the Policy
+          Schedule will be paid to you in the event of:
         </Text>
 
         <Text className="font-medium text-white mx-3 mb-3 mb-2 ">
@@ -67,10 +67,10 @@ export default function StarLifeInsurance() {
           LEVEL OF BENEFITS
         </Text>
         <Text className="font-medium text-white mx-3 mb-1 ">
-          The levels of benefits are at the discretion of the policyholder. 
-          The capital benefit which is payable in the event of death and 
-          permanent total disability is normally determined as multiples 
-          of the annual salary of a staff.
+          The levels of benefits are at the discretion of the policyholder. The
+          capital benefit which is payable in the event of death and permanent
+          total disability is normally determined as multiples of the annual
+          salary of a staff.
         </Text>
       </View>
     </SafeAreaView>

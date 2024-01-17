@@ -1,19 +1,21 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { useNavigation } from '@react-navigation/core';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { useNavigation } from "@react-navigation/core";
+import { SafeAreaView } from "react-native-safe-area-context";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function StarComprehensive() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
       <View className="flex-row justify-left mt-8 mb-7">
         <View className=" mx-2">
-          <TouchableOpacity onPress={() => navigation.navigate("StarLifeGeneralMain")}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("StarLifeGeneralMain")}
+          >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>

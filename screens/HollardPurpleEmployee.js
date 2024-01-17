@@ -1,19 +1,21 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { useNavigation } from '@react-navigation/core';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { useNavigation } from "@react-navigation/core";
+import { SafeAreaView } from "react-native-safe-area-context";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function HollardPurpleEmployee() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
-      <View className="flex-row justify-left mt-8 mb-7">
+      <View className="flex-row justify-left">
         <View className=" mx-2">
-          <TouchableOpacity onPress={() => navigation.navigate("HollardLifeMain")}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("HollardLifeMain")}
+          >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>
@@ -24,15 +26,11 @@ export default function HollardPurpleEmployee() {
         <Image source={require("../assets/Images/Hollard.png")} />
       </View>
 
-      <View className="flex-row justify-center">
-        <Text className="font-extrabold mt-5 text-teal-900">
-          THE HOLLARD INSURANCE(GHANA)
-        </Text>
-      </View>
+  
 
-      <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-20 rounded-xl items-center">
-             <Text className='font-bold text-white'>Hollard Life Insurance</Text>
-        </View>
+      <View className="py-2 bg-[#115E67] mt-2  mx-20 rounded-xl items-center">
+        <Text className="font-bold text-white">Hollard Life Insurance</Text>
+      </View>
 
       <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-4 elevation rounded-xl ">
         <Text className="font-medium text-white mx-3 ">
@@ -56,19 +54,19 @@ export default function HollardPurpleEmployee() {
           contingencies:
         </Text>
 
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 ">
           · Death (Natural and Accidental)
         </Text>
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 ">
           · Total and Permanent Disability
         </Text>
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 ">
           · Accidental Total Partial Disability
         </Text>
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 ">
           · Accidental Temporary Disability
         </Text>
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 ">
           · Accident Medical Reimbursement
         </Text>
         <Text className="font-medium text-white mx-3 ">
@@ -80,10 +78,9 @@ export default function HollardPurpleEmployee() {
         <Text className="font-medium text-white mx-3 ">
           · Purple Monthly Grocery Plan
         </Text>
-        <Text className="font-medium text-white mx-3 ">
+        <Text className="font-light text-white mx-3 mb-20">
           · Workmen’s Compensation
         </Text>
-        
       </View>
     </SafeAreaView>
   );

@@ -1,19 +1,21 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { useNavigation } from '@react-navigation/core';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { useNavigation } from "@react-navigation/core";
+import { SafeAreaView } from "react-native-safe-area-context";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function GlicoFamilyLife() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
       <View className="flex-row justify-left mt-8 mb-7">
         <View className=" mx-2">
-          <TouchableOpacity onPress={() => navigation.navigate("GlicoLifeMain")}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("GlicoLifeMain")}
+          >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>
@@ -26,7 +28,7 @@ export default function GlicoFamilyLife() {
 
       <View className="flex-row justify-center">
         <Text className="font-extrabold mt-5 text-teal-900">
-        GLICO Family Life Comprehensive
+          GLICO Family Life Comprehensive
         </Text>
       </View>
 
@@ -35,18 +37,19 @@ export default function GlicoFamilyLife() {
           - Family Life Comprehensive Insurance Plan benefits:
         </Text>
 
-        <Text className="font-medium text-white mx-3 ">- Guaranteed minimum lump 
-          sum for death, permanent disability, and critical illness</Text>
         <Text className="font-medium text-white mx-3 ">
-          - Lump sum amount for beneficiaries upon death of policyholder or spouse
+          - Guaranteed minimum lump sum for death, permanent disability, and
+          critical illness
+        </Text>
+        <Text className="font-medium text-white mx-3 ">
+          - Lump sum amount for beneficiaries upon death of policyholder or
+          spouse
         </Text>
 
         <Text className="font-medium text-white mx-3 ">
           - Coverage for policyholder and two spouses
         </Text>
-        <Text className="font-medium text-white mx-3 ">
-          - Premium refund
-        </Text>
+        <Text className="font-medium text-white mx-3 ">- Premium refund</Text>
         <Text className="font-medium text-white mx-3 ">
           - Total permanent disability coverage
         </Text>

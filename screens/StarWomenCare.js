@@ -14,8 +14,8 @@ export default function StarWomenCare() {
             onPress={() => navigation.navigate("StarLifeHealthMain")}
           >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>
@@ -33,21 +33,21 @@ export default function StarWomenCare() {
       </View>
 
       <View className="bg-[#115E67] mt-5 mx-5 elevation rounded-xl items-center">
-
         <Text className="text-teal-50 mt-3 mb-5 text-center  font-bold">
-               Star Women Care Insurance Policy
+          Star Women Care Insurance Policy
         </Text>
         <View className="flex-row mb-5 items-center justify-center">
           <View
-            style={{ width: 160, height: 160}}
-            className="border border-teal-50  mt-1 mx-2 p-1 rounded-l" >
-
+            style={{ width: 160, height: 160 }}
+            className="border border-teal-50  mt-1 mx-2 p-1 rounded-l"
+          >
             <Text className="text-teal-50 mt-1 mb-6 text-center text-xs font-bold">
-                Maternity Benefit
+              Maternity Benefit
             </Text>
             <Text className="text-teal-50 mt-1  text-xs font-medium">
-                 Delivery expenses including the normal and Caesarean section (both pre-natal and post-natal) 
-                 are covered up to the limits mentioned in the policy clause.
+              Delivery expenses including the normal and Caesarean section (both
+              pre-natal and post-natal) are covered up to the limits mentioned
+              in the policy clause.
             </Text>
           </View>
 
@@ -56,11 +56,11 @@ export default function StarWomenCare() {
             className="border border-teal-50 mx-2 mt-1 p-1 rounded-l"
           >
             <Text className="text-teal-50 mt-1 text-center text-xs font-bold">
-                 Hospitalisation Expenses for Treatment of New Born Baby
+              Hospitalisation Expenses for Treatment of New Born Baby
             </Text>
             <Text className="text-teal-50 mt-1  text-xs font-medium">
-                Hospitalisation expenses for the treatment of newborn are covered including 
-                vaccination expenses up to 12 months.
+              Hospitalisation expenses for the treatment of newborn are covered
+              including vaccination expenses up to 12 months.
             </Text>
           </View>
         </View>
@@ -71,22 +71,26 @@ export default function StarWomenCare() {
             className="border border-teal-50  mx-2 mt-1 p-1 rounded-l"
           >
             <Text className="text-teal-50 mt-1 mb-2 text-center text-xs font-bold">
-                 Ante-Natal Care (Pregnancy Care)
-
+              Ante-Natal Care (Pregnancy Care)
             </Text>
             <Text className="text-teal-50 mt-1  text-xs font-medium">
-                This policy covers Outpatient expenses incurred for ante-natal care after confirmation 
-                of pregnancy up to the limits specified
+              This policy covers Outpatient expenses incurred for ante-natal
+              care after confirmation of pregnancy up to the limits specified
             </Text>
           </View>
 
-          <View style={{ width: 160, height: 160 }} className="border border-teal-50 mx-2 mt-1 p-1  mb-5rounded-l" >
+          <View
+            style={{ width: 160, height: 160 }}
+            className="border border-teal-50 mx-2 mt-1 p-1  mb-5rounded-l"
+          >
             <Text className="text-teal-50 mt-1 text-center text-xs font-bold">
-                 Bariatric Surgery
+              Bariatric Surgery
             </Text>
             <Text className="text-teal-50 mt-1  text-xs font-medium">
-                Hospitalization expenses incurred for Bariatric surgical procedures are covered up to the limits of GH. 2,50,000/- and GH.
-                5,00,000/- which are inclusive of pre and post hospitalization expenses.
+              Hospitalization expenses incurred for Bariatric surgical
+              procedures are covered up to the limits of GH. 2,50,000/- and GH.
+              5,00,000/- which are inclusive of pre and post hospitalization
+              expenses.
             </Text>
           </View>
         </View>
