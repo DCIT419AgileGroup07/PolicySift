@@ -23,7 +23,8 @@ export default function AllianzGeneralMain() {
              <Text className='font-bold text-white'>ALLIANZ GENERAL INSURANCE</Text>
         </View>
 
-        <View className="flex-row mx-7">
+        <View className='items-center'>
+        <View className="flex-row">
            
 
            <TouchableOpacity onPress={() => navigation.navigate("AllianzMotor")}  style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7 rounded-l items-center">
@@ -39,7 +40,7 @@ export default function AllianzGeneralMain() {
             </TouchableOpacity> 
         </View>
 
-        <View className="flex-row mb-5 mx-7">
+        <View className="flex-row mb-5">
            <TouchableOpacity onPress={() => navigation.navigate("AllianzTravel")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7 rounded-l items-center">
               <Image source={require("../assets/Images/plane.png")} className='mt-6' style={{width: 135, height: 50}} />
               <Text className='text-teal-800 mt-1 text-center text-xs font-medium'> Travel Insurance </Text>
@@ -50,7 +51,7 @@ export default function AllianzGeneralMain() {
               <Text className='text-teal-800 mt-1 text-center text-xs font-medium'>Allianz Funeral {"\n"} Policy </Text>
             </TouchableOpacity> 
         </View>
-
+        </View>
         
       </ScrollView>
     </SafeAreaView>
