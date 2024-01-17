@@ -8,7 +8,7 @@ export default function AllianzWealth() {
     const navigation = useNavigation();
   return (
     <SafeAreaView>
-      <View className="flex-row justify-left mt-5 mb-5">
+      <View className="flex-row justify-left mt-2 mb-2">
         <View className=" mx-2">
           <TouchableOpacity onPress={() => navigation.navigate("AllianzLifeMain")}>
             <MaterialCommunityIcons
@@ -25,22 +25,22 @@ export default function AllianzWealth() {
       </View>
 
       <View className="flex-row justify-center">
-        <Text className="font-extrabold mt-2 text-teal-900">
+        <Text className="font-extrabold text-teal-900">
         Allianz Insurance Company Ghana
         Limited 
         </Text>
       </View>
 
       <View className="py-4 bg-[#115E67] mt-2 mb-2 mx-4 elevation rounded-xl ">
-      <Text className="font-small text-white mx-3 font-bold mb-5 ml-12 ">
-                  Natural Death (Policyholder)
+      <Text className="font-small text-white mx-3 font-bold mb-5 ml-24 ">
+      Allianz Wealth Planner
                 </Text>
       
 
         <View className="flex-row">
             <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                   Natural Death (Policyholder)
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
@@ -50,7 +50,7 @@ export default function AllianzWealth() {
 
             <View className=" border-2 border-[#fcffff] rounded-md mb- w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Temporary Disability
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
@@ -61,7 +61,7 @@ export default function AllianzWealth() {
         <View className="flex-row">
             <View className=" border-2 border-[#fcffff] rounded-md mb-60 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Permanent Disability
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
@@ -71,7 +71,7 @@ export default function AllianzWealth() {
 
             <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Partial Withdrawal
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
