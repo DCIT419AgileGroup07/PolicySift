@@ -20,7 +20,7 @@ export default function StarLifeHealthMain() {
         </View>
 
         <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-20 rounded-xl items-center">
-             <Text className='font-bold text-white'>SIC HEALTH INSURANCE</Text>
+             <Text className='font-bold text-white'>STARLIFE HEALTH INSURANCE</Text>
         </View>
 
         <View className="flex-row">
