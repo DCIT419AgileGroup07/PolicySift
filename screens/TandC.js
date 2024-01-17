@@ -18,7 +18,7 @@ export default function TandC() {
     <View className='flex-row mb-3'>
     <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("ProfileStack")}>
         <MaterialCommunityIcons name='chevron-left' size={45} color={'white'}/></TouchableOpacity></View>
-      <Text className='text-white text-2xl font-semibold mt-2 mx-24 text-center'>About Us</Text>
+      <Text className='text-white text-2xl font-semibold mt-2 mx-12 text-center'>Terms and Conditions</Text>
     </View>
     </View>
     <View className='items-center bg-white my-4 mx-4 rounded-3xl'>
