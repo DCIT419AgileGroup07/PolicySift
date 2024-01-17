@@ -1,6 +1,6 @@
 import { View, Text, ScrollView, Image , ImageBackground, SafeAreaView, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { useNavigation } from '@react-navigation/core';
+import { useNavigation, CommonActions } from '@react-navigation/core';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 export default function TandC() {
@@ -16,7 +16,7 @@ export default function TandC() {
       <View className='mt-8'>
     <View className='my-auto'>
     <View className='flex-row mb-3'>
-    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("ProfileStack")}>
+    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.dispatch(CommonActions.goBack())}>
         <MaterialCommunityIcons name='chevron-left' size={45} color={'white'}/></TouchableOpacity></View>
       <Text className='text-white text-2xl font-semibold mt-2 mx-12 text-center'>Terms and Conditions</Text>
     </View>

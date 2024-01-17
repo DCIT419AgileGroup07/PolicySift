@@ -1,6 +1,6 @@
 import { View, Text, Image, TextInput, SafeAreaView, ScrollView, TouchableOpacity } from 'react-native'
 import React from 'react'
-import { useNavigation } from '@react-navigation/core';
+import { useNavigation, CommonActions} from '@react-navigation/core';
 import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
 
 
@@ -11,7 +11,7 @@ export default function Support() {
 
 
     <View className='flex-row mt-5'>
-    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.navigate("ProfileStack")}>
+    <View className=''><TouchableOpacity className='left-0 ml-2' onPress={() => navigation.dispatch(CommonActions.goBack())}>
         <MaterialCommunityIcons name='chevron-left' size={45} color={'#034047'}/></TouchableOpacity></View>
       <Text className='text-[#034047] text-2xl font-semibold mt-2 mx-20 text-center'>Contact Us</Text>
     </View>
