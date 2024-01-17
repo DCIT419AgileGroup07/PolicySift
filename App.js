@@ -98,12 +98,6 @@ const AppNavigator = () => (
       <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
       <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
       <Stack.Screen name='GlicoFire' component={GlicoFire}/>
-   
-
-      
-      
-     
-    
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
