@@ -62,7 +62,7 @@ export default function AllianzHomePolicy() {
                 </View>
               </View>
 
-              <View className='items-center justify-center'>
+              <View className='items-center justify-center mb-2'>
               <View style={{width: 300, height: 110}} className="border border-teal-50  mt-1 mb-3 p-1 rounded-l items-center ">
                 <Text className='text-teal-50 mt-1 text-center text-xs font-bold'> Rent</Text>
                 <Text className='text-teal-50 mt-1 text-center text-xs font-medium'> We pay up to 12 month loss of rent following damage to your property which makes the place not suitable for rental.</Text>
