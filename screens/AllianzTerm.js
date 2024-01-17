@@ -39,7 +39,7 @@ export default function AllianzWealth() {
         <View className="flex-row">
             <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Death
                 </Text>
                 
@@ -50,7 +50,7 @@ export default function AllianzWealth() {
 
             <View className=" border-2 border-[#fcffff] rounded-md mb- w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Maturity
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
@@ -61,7 +61,7 @@ export default function AllianzWealth() {
         <View className="flex-row">
             <View className=" border-2 border-[#fcffff] rounded-md mb-60 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Permanent Disability
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">
@@ -71,7 +71,7 @@ export default function AllianzWealth() {
 
             <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
-                <Text className="font-small text-white mx-3 font-bold ">
+                <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Temporary Disability
                 </Text>
                 <Text className="font-small text-white mx-3 font-light ">

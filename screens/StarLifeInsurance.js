@@ -8,7 +8,7 @@ export default function StarLifeInsurance() {
     const navigation = useNavigation();
   return (
     <SafeAreaView>
-      <View className="flex-row justify-left mt-8 mb-7">
+      <View className="flex-row justify-left mt-2 mb-2">
         <View className=" mx-2">
           <TouchableOpacity onPress={() => navigation.navigate("StarLifeLifeMain")}>
             <MaterialCommunityIcons
