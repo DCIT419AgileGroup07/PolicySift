@@ -15,7 +15,7 @@ export default function HealthPolicy() {
       </View>
 
     
-      <View className='mt-16'>
+      <View className='mt-12'>
         <TouchableOpacity>
               <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
