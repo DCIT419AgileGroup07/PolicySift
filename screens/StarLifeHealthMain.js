@@ -38,7 +38,7 @@ export default function StarLifeHealthMain() {
         </View>
 
         <View className="flex-row">
-           <TouchableOpacity  style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
+           <TouchableOpacity onPress={() => navigation.navigate("StarHealthPremier")} style={{width: 155, height: 130}} className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center">
               <Image source={require("../assets/Images/Accident_1.png")} className='mt-4' style={{width: 70, height: 50}} />
               <Text className='text-teal-800 mt-1 text-xs text-center  font-medium'>Star Health   {"\n"} Premier {"\n"} Insurances Policy</Text>
             </TouchableOpacity>
