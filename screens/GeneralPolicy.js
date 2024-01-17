@@ -8,31 +8,28 @@ export default function GeneralPolicy() {
   return (
     <SafeAreaView>
     <ScrollView>
-    <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+    <View className='flex-row justify-left mb-8 mt-20'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
         <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
-    </View>
-
-    <View className='items-center my-5'>
-    <Text className='text-3xl mt-2 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
-    </View>
+        <Text className='text-3xl mt-2 mx-4 text-[#115E67] font-bold' >GENERAL INSURANCE</Text>
+      </View> 
 
       <View>
       <TouchableOpacity onPress={() => navigation.navigate("StarLifeGeneralMain")}>
-            <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
+            <View className='mb-7' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/starlife.png")}/>
             </View> 
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigation.navigate("AllianzGeneralMain")}>
-            <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
+            <View className='my-7' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/Allianz.png")}/>
             </View>
         </TouchableOpacity>
 
         <TouchableOpacity onPress={() => navigation.navigate("HollardGeneralMain")}>
-          <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
+          <View className='my-7' style={{height: 1, backgroundColor: 'black'}}></View>
           <View className='flex-row justify-center'>
             <Image source={require("../assets/Images/Hollard.png")}/>
           </View>
@@ -40,11 +37,11 @@ export default function GeneralPolicy() {
 
 
         <TouchableOpacity onPress={() => navigation.navigate("GlicoGeneralMain")}>
-            <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
+            <View className='my-7' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/Glico.png")}/>
             </View>
-            <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
+            <View className='my-7' style={{height: 1, backgroundColor: 'black'}}></View>
         </TouchableOpacity>
         </View>
     </ScrollView>

@@ -23,7 +23,7 @@ import AllianzGeneralMain from './screens/AllianzGeneralMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
-<<<<<<< HEAD
+import TandC from './screens/TandC';
 import GlicoLifeMain from './screens/GlicoLifeMain';
 import GlicoLifeSaving from './screens/GlicoLifeSaving';
 import GlicoFuneral from './screens/GlicoFuneral';
@@ -40,7 +40,6 @@ import AllianzEduflex from './screens/AllianzEduflex';
 import AllianzFarewell from './screens/AllianzFarewell';
 import AllianzTerm from './screens/AllianzTerm';
 import AllianzWealth from './screens/AllianzWealth';
-=======
 import AllianzMotor from './screens/AllianzMotor';
 import AllianzHomePolicy from './screens/AllianzHomePolicy';
 import AllianzTravel from './screens/AllianzTravel';
@@ -56,6 +55,10 @@ import GlicoMarine from './screens/GlicoMarine';
 import GlicoSpecialty from './screens/GlicoSpecialty';
 import GlicoFire from './screens/GlicoFire';
 
+import StarLifeHealthMain from './screens/StarLifeHealthMain';
+import StarWomenCare from './screens/StarWomenCare';
+import StarHealthComprehensive from './screens/StarHealthComprehensive';
+import StarHealthPremier from './screens/StarHealthPremier';
 
 
 
@@ -65,7 +68,8 @@ import GlicoFire from './screens/GlicoFire';
 
 
 
->>>>>>> df2c83aa8fa2439f08bbd6464cc2bfda4510edec
+import GlicoHealthMain from './screens/GlicoHealthMain'
+import StarLifeEmployeeSec from './screens/StarLifeEmployeeSec'
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -105,17 +109,25 @@ const AppNavigator = () => (
       <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
       <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
       <Stack.Screen name='GlicoFire' component={GlicoFire}/>
+
+      <Stack.Screen name='StarLifeHealthMain' component={StarLifeHealthMain}/>
+      <Stack.Screen name='StarWomenCare' component={StarWomenCare}/>
+      <Stack.Screen name='StarHealthComprehensive' component={StarHealthComprehensive}/>
+      <Stack.Screen name='StarHealthPremier' component={StarHealthPremier}/>
+
+
+
+
    
 
       
       
      
     
-      
-    
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
+      <Stack.Screen name='TandC' component={TandC}/>
       <Stack.Screen name='GlicoLifeMain' component={GlicoLifeMain}/>
       <Stack.Screen name='GlicoLifeSaving' component={GlicoLifeSaving}/>
       <Stack.Screen name='GlicoFamilyLife' component={GlicoFamilyLife}/>
@@ -132,6 +144,9 @@ const AppNavigator = () => (
       <Stack.Screen name='AllianzWealth' component={AllianzWealth}/>
       <Stack.Screen name='AllianzEduflex' component={AllianzEduflex}/>
       <Stack.Screen name='AllianzLifeMain' component={AllianzLifeMain}/>
+      <Stack.Screen name='StarLifeEmployeeSec' component={StarLifeEmployeeSec}/>
+      <Stack.Screen name='GlicoHealthMain ' component={GlicoHealthMain}/>
+      
     </Stack.Navigator>
   </NavigationContainer>
   

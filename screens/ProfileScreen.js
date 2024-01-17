@@ -60,7 +60,7 @@ export default function ProfileScreen() {
         </TouchableOpacity>
 
         <TouchableOpacity className='bg-[#dce2e2] mx-5 py-3 rounded-2xl mt-3 flex-row'
-        onPress={() => navigation.navigate("Support")}>
+        onPress={() => navigation.navigate("TandC")}>
           <View className='ml-2'><MaterialCommunityIcons  name='cellphone'size={26} color={'#115E67'}/></View>
           <Text className ='text-[#115E67] text-lg font-semibold mx-4'>Terms and Conditions</Text>
         </TouchableOpacity>
