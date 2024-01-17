@@ -23,6 +23,7 @@ import AllianzGeneralMain from './screens/AllianzGeneralMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
+import TandC from './screens/TandC';
 import GlicoLifeMain from './screens/GlicoLifeMain';
 import GlicoLifeSaving from './screens/GlicoLifeSaving';
 import GlicoFuneral from './screens/GlicoFuneral';
@@ -96,6 +97,7 @@ const AppNavigator = () => (
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
       <Stack.Screen name='Support' component={Support}/>
+      <Stack.Screen name='TandC' component={TandC}/>
       <Stack.Screen name='GlicoLifeMain' component={GlicoLifeMain}/>
       <Stack.Screen name='GlicoLifeSaving' component={GlicoLifeSaving}/>
       <Stack.Screen name='GlicoFamilyLife' component={GlicoFamilyLife}/>
