@@ -15,23 +15,23 @@ export default function HealthPolicy() {
       </View> 
 
     
-      <View className='my-5 '>
+      <View className='mt-5'>
         <TouchableOpacity>
-              <View className='mb-8' style={{height: 1, backgroundColor: 'black'}}></View>
+              <View className='mb-7' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
                 <Image source={require("../assets/Images/starlife.png")}/>
               </View>
           </TouchableOpacity>
 
           <TouchableOpacity>
-              <View className='my-8' style={{height: 1, backgroundColor: 'black'}}></View>
+              <View className='my-7' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
                 <Image source={require("../assets/Images/Allianz.png")}/>
               </View>
           </TouchableOpacity>
 
           <TouchableOpacity>
-            <View className='my-8 ' style={{height: 1, backgroundColor: 'black'}}></View>
+            <View className='my-7 ' style={{height: 1, backgroundColor: 'black'}}></View>
             <View className='flex-row justify-center'>
               <Image source={require("../assets/Images/Hollard.png")}/>
             </View>
@@ -39,11 +39,11 @@ export default function HealthPolicy() {
 
 
           <TouchableOpacity>
-              <View className='my-8 ' style={{height: 1, backgroundColor: 'black'}}></View>
+              <View className='my-7 ' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
                 <Image source={require("../assets/Images/Glico.png")}/>
               </View>
-              <View className='my-8 ' style={{height: 1, backgroundColor: 'black'}}></View>
+              <View className='my-7 ' style={{height: 1, backgroundColor: 'black'}}></View>
           </TouchableOpacity>
     </View>
     </View>
