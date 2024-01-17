@@ -1,4 +1,4 @@
-import { View, Text, Image, TouchableOpacity } from "react-native";
+import { View, Text, Image, TouchableOpacity, ScrollView } from "react-native";
 import React from "react";
 import { useNavigation } from "@react-navigation/core";
 import { SafeAreaView } from "react-native-safe-area-context";
@@ -32,14 +32,21 @@ export default function StarMotor() {
         </Text>
       </View>
 
-      <View className="bg-[#115E67] mt-5 mx-8 elevation rounded-xl items-center">
-        <Text className="font-medium text-white mt-5 mx-3 mb-80">
+      <ScrollView>
+      <View className="bg-[#115E67] mt-5 mx-5 elevation rounded-xl items-center">
+        <Text className="font-medium text-white mt-5 mx-3 ">
           Our motor policy is designed to cover the legal liabilities of our
           insured as a result of the use of the motor vehicle and loss or damage
           to his own vehicle. Under our motor portfolio, the following covers
           are pro vided: Third Party Fire & Theft and Comprehensive.
         </Text>
+      <View>
+      <Image source={require("../assets/Images/Frame95.png")} />
       </View>
+      
+      </View>
+      </ScrollView>
+      
     </SafeAreaView>
   );
 }
