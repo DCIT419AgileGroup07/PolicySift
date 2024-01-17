@@ -5,6 +5,7 @@ export default function GlicoHealthMain() {
   return (
     <View>
       <Text>GlicoHealthMain</Text>
+      
     </View>
   )
 }
