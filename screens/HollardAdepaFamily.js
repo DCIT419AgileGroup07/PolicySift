@@ -48,8 +48,7 @@ export default function HollardAdepaFamily() {
           · No underwriting necessary.
         </Text>
         <Text className="font-medium text-white mx-3 mb-3 ">
-          · Covers start immediately for accidental 
-            death.
+          · Covers start immediately for accidental death.
         </Text>
         <Text className="font-medium text-white mx-3 mb-3">
           · 20% guaranteed premium return for 

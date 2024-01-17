@@ -1,19 +1,21 @@
-import { View, Text, Image, TouchableOpacity } from 'react-native'
-import React from 'react'
-import { useNavigation } from '@react-navigation/core';
-import { SafeAreaView } from 'react-native-safe-area-context';
-import MaterialCommunityIcons from 'react-native-vector-icons/MaterialCommunityIcons';
+import { View, Text, Image, TouchableOpacity } from "react-native";
+import React from "react";
+import { useNavigation } from "@react-navigation/core";
+import { SafeAreaView } from "react-native-safe-area-context";
+import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
 export default function GlicoFuneral() {
-    const navigation = useNavigation();
+  const navigation = useNavigation();
   return (
     <SafeAreaView>
       <View className="flex-row justify-left mt-8 mb-7">
         <View className=" mx-2">
-          <TouchableOpacity onPress={() => navigation.navigate("GlicoLifeMain")}>
+          <TouchableOpacity
+            onPress={() => navigation.navigate("GlicoLifeMain")}
+          >
             <MaterialCommunityIcons
-              name="chevron-left"
-              size={50}
+              name="arrow-left"
+              size={35}
               color={"black"}
             />
           </TouchableOpacity>
@@ -32,9 +34,9 @@ export default function GlicoFuneral() {
 
       <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-4 elevation rounded-xl ">
         <Text className="font-medium text-white mx-3 ">
-          TThe GLICO Funeral Policy is a whole life assurance plan which pays 
-          the sum assured upon the death of the life insured. The plan is 
-          designed to provide funds to meet funeral expenses and incidental 
+          TThe GLICO Funeral Policy is a whole life assurance plan which pays
+          the sum assured upon the death of the life insured. The plan is
+          designed to provide funds to meet funeral expenses and incidental
           costs after the death of a loved one.
         </Text>
 
