@@ -47,28 +47,29 @@ export default function AllianzHomePolicy() {
                 - Loss of luggage {"\n"} 
               </Text>
 
-              <View className="flex-row mb-5  ">
+              <View className="flex-row mb-5 items-center justify-center">
   
-                <View style={{width: 145, height: 140}} className="border border-teal-50  mt-1 ml-3  p-1 rounded-l items-center">
+                <View style={{width: 145, height: 145}} className="border border-teal-50  mt-1 p-1 rounded-l">
                    
                   <Text className='text-teal-50 mt-1 text-center text-xs font-bold'>Public Liability  </Text>
                   <Text className='text-teal-50 mt-1 text-center text-xs font-medium'>Covers your legal liability as the house owner for injuries or death of third parties at your place of residence arising from your negligence. </Text>
                 </View> 
 
-                <View style={{width: 145, height: 140}} className="border border-teal-50  mt-1 ml-4  p-1 rounded-l items-center">
+                <View style={{width: 145, height: 145}} className="border border-teal-50 mx-2 mt-1 p-1 rounded-l">
                   
                   <Text className='text-teal-50 mt-1 text-center text-xs font-bold'>Personal Accidents </Text>
                   <Text className='text-teal-50 mt-1 text-center text-xs font-medium'>Compensate you and your household whenever you sustain accidental bodily injury. </Text>
                 </View>
               </View>
 
-              <View style={{width: 300, height: 110}} className="border border-teal-50  mt-1 ml-4 mb-3 p-1 rounded-l items-center">
+              <View className='items-center justify-center'>
+              <View style={{width: 300, height: 110}} className="border border-teal-50  mt-1 mb-3 p-1 rounded-l items-center ">
                 <Text className='text-teal-50 mt-1 text-center text-xs font-bold'> Rent</Text>
                 <Text className='text-teal-50 mt-1 text-center text-xs font-medium'> We pay up to 12 month loss of rent following damage to your property which makes the place not suitable for rental.</Text>
 
 
               </View>
-
+              </View>
     </View>
    </SafeAreaView>
   )
