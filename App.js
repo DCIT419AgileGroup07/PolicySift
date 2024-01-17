@@ -55,6 +55,14 @@ import GlicoMarine from './screens/GlicoMarine';
 import GlicoSpecialty from './screens/GlicoSpecialty';
 import GlicoFire from './screens/GlicoFire';
 
+import StarLifeHealthMain from './screens/StarLifeHealthMain';
+import StarWomenCare from './screens/StarWomenCare';
+import StarHealthComprehensive from './screens/StarHealthComprehensive';
+
+
+
+
+
 
 
 import GlicoHealthMain from './screens/GlicoHealthMain'
@@ -98,6 +106,13 @@ const AppNavigator = () => (
       <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
       <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
       <Stack.Screen name='GlicoFire' component={GlicoFire}/>
+
+      <Stack.Screen name='StarLifeHealthMain' component={StarLifeHealthMain}/>
+      <Stack.Screen name='StarWomenCare' component={StarWomenCare}/>
+      <Stack.Screen name='StarHealthComprehensive' component={StarHealthComprehensive}/>
+
+
+
    
 
       
