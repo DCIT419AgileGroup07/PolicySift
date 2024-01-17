@@ -54,6 +54,7 @@ import GlicoMotor from './screens/GlicoMotor';
 import GlicoMarine from './screens/GlicoMarine';
 import GlicoSpecialty from './screens/GlicoSpecialty';
 import GlicoFire from './screens/GlicoFire';
+import GlicoHealthMain from './screens/GlicoHealthMain'
 import StarLifeEmployeeSec from './screens/StarLifeEmployeeSec'
 
 const Tab = createBottomTabNavigator();
@@ -115,6 +116,8 @@ const AppNavigator = () => (
       <Stack.Screen name='AllianzEduflex' component={AllianzEduflex}/>
       <Stack.Screen name='AllianzLifeMain' component={AllianzLifeMain}/>
       <Stack.Screen name='StarLifeEmployeeSec' component={StarLifeEmployeeSec}/>
+      <Stack.Screen name='GlicoHealthMain ' component={GlicoHealthMain}/>
+      
     </Stack.Navigator>
   </NavigationContainer>
   

@@ -8,14 +8,14 @@ export default function HealthPolicy() {
   return (
     <SafeAreaView>
       <ScrollView>
+      <View className='my-auto'>
       <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
         <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
+        <Text className='text-3xl mt-2 mx-5 text-[#115E67] font-bold' >HEALTH INSURANCE</Text>
       </View>
 
-      <View className='items-center my-5'>
-      <Text className='text-3xl mt-2 text-[#115E67] font-bold' >HEALTH INSURANCE</Text>
-      </View>
-
+    
+      <View className='mt-16'>
         <TouchableOpacity>
               <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
@@ -45,7 +45,8 @@ export default function HealthPolicy() {
               </View>
               <View className='my-4 ' style={{height: 1, backgroundColor: 'black'}}></View>
           </TouchableOpacity>
-    
+    </View>
+    </View>
   </ScrollView>
     </SafeAreaView>
   )
