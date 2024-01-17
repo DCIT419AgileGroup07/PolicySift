@@ -15,8 +15,13 @@ export default function HealthPolicy() {
       </View>
 
     
+<<<<<<< HEAD
       <View className='mt-16'>
         <TouchableOpacity onPress={() => navigation.navigate("StarLifeHealthMain")}>
+=======
+      <View className='mt-12'>
+        <TouchableOpacity>
+>>>>>>> 11db43a10ff3d6566553ce9ecdbfd5220c83d8dc
               <View className='mb-4' style={{height: 1, backgroundColor: 'black'}}></View>
               <View className='flex-row justify-center'>
                 <Image source={require("../assets/Images/starlife.png")}/>
