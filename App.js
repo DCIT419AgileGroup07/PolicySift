@@ -23,7 +23,6 @@ import AllianzGeneralMain from './screens/AllianzGeneralMain';
 import Account from './screens/Account';
 import AboutUs from './screens/AboutUs';
 import Support from './screens/Support';
-<<<<<<< HEAD
 import GlicoLifeMain from './screens/GlicoLifeMain';
 import GlicoLifeSaving from './screens/GlicoLifeSaving';
 import GlicoFuneral from './screens/GlicoFuneral';
@@ -40,7 +39,6 @@ import AllianzEduflex from './screens/AllianzEduflex';
 import AllianzFarewell from './screens/AllianzFarewell';
 import AllianzTerm from './screens/AllianzTerm';
 import AllianzWealth from './screens/AllianzWealth';
-=======
 import AllianzMotor from './screens/AllianzMotor';
 import AllianzHomePolicy from './screens/AllianzHomePolicy';
 import AllianzTravel from './screens/AllianzTravel';
@@ -58,14 +56,6 @@ import GlicoFire from './screens/GlicoFire';
 
 
 
-
-
-
-
-
-
-
->>>>>>> df2c83aa8fa2439f08bbd6464cc2bfda4510edec
 
 const Tab = createBottomTabNavigator();
 const Stack = createStackNavigator();
@@ -110,8 +100,6 @@ const AppNavigator = () => (
       
       
      
-    
-      
     
       <Stack.Screen name='Account' component={Account}/>
       <Stack.Screen name='AboutUs' component={AboutUs}/>
