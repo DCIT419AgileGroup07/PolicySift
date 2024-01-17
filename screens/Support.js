@@ -52,7 +52,6 @@ export default function Support() {
         <Text className="text-2xl font-bold text-white text-center">Submit</Text>
     </TouchableOpacity>
     </View>
-
     </View>
     </View>
     </ScrollView>
