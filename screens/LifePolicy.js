@@ -9,7 +9,7 @@ export default function LifePolicy() {
     
     <SafeAreaView>
       <ScrollView>
-      <View className='flex-row justify-left my-8'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
+      <View className='flex-row justify-left mb-8 mt-12'><TouchableOpacity onPress={() => navigation.navigate("Home")}>
         <MaterialCommunityIcons name='chevron-left' size={50} color={'black'}/></TouchableOpacity>
         <Text className='text-3xl mt-2 mx-12 text-[#115E67] font-bold' >LIFE INSURANCE</Text>
       </View>
