@@ -43,7 +43,7 @@ export default function StarWomenCare() {
             <Text className="text-teal-50 mt-1 mb-6 text-center text-xs font-bold">
               Maternity Benefit
             </Text>
-            <Text className="text-teal-50 mt-1  text-xs font-medium">
+            <Text className="text-teal-50 mt-1 ml-2 text-xs font-medium">
               Delivery expenses including the normal and Caesarean section (both
               pre-natal and post-natal) are covered up to the limits mentioned
               in the policy clause.

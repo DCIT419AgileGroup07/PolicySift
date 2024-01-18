@@ -124,7 +124,7 @@ const AppNavigator = () => (
       <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
       <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
       <Stack.Screen name='GlicoFire' component={GlicoFire}/>
-
+      <Stack.Screen name='GlicoHealthMain' component={GlicoHealthMain}/>
       <Stack.Screen name='StarLifeHealthMain' component={StarLifeHealthMain}/>
       <Stack.Screen name='StarWomenCare' component={StarWomenCare}/>
       <Stack.Screen name='StarHealthComprehensive' component={StarHealthComprehensive}/>
@@ -179,7 +179,7 @@ const AppNavigator = () => (
       <Stack.Screen name='AllianzEduflex' component={AllianzEduflex}/>
       <Stack.Screen name='AllianzLifeMain' component={AllianzLifeMain}/>
       <Stack.Screen name='StarLifeEmployeeSec' component={StarLifeEmployeeSec}/>
-      <Stack.Screen name='GlicoHealthMain ' component={GlicoHealthMain}/>
+
       
     </Stack.Navigator>
   </NavigationContainer>
