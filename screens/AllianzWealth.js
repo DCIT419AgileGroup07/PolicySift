@@ -177,36 +177,6 @@ export default function AllianzWealth() {
 
       </View>
     </ScrollView>
-
-      {/* <ScrollView>
-         
-      
-      <View>
-        
-
-        </View>
-
-
-        
-
-        
-
-
-        
-          
-
-
-        </View>
-        
-        
-          
-
-          
-        </View>
-      </View>
-      </View>
-      </View>
-      </ScrollView> */}
     </SafeAreaView>
   );
 }
