@@ -59,6 +59,10 @@ import StarLifeHealthMain from './screens/StarLifeHealthMain';
 import StarWomenCare from './screens/StarWomenCare';
 import StarHealthComprehensive from './screens/StarHealthComprehensive';
 import StarHealthPremier from './screens/StarHealthPremier';
+import StarOutPatient from './screens/StarOutPatient';
+import StarSurplusInsurance from './screens/StarSurplusInsurance';
+
+
 
 
 
@@ -114,6 +118,10 @@ const AppNavigator = () => (
       <Stack.Screen name='StarWomenCare' component={StarWomenCare}/>
       <Stack.Screen name='StarHealthComprehensive' component={StarHealthComprehensive}/>
       <Stack.Screen name='StarHealthPremier' component={StarHealthPremier}/>
+      <Stack.Screen name='StarOutPatient' component={StarOutPatient}/>
+      <Stack.Screen name='StarSurplusInsurance' component={StarSurplusInsurance}/>
+
+
 
 
 

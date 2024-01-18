@@ -82,6 +82,7 @@ export default function StarLifeHealthMain() {
           </TouchableOpacity>
 
           <TouchableOpacity
+            onPress={() => navigation.navigate("StarOutPatient")}
             style={{ width: 155, height: 130 }}
             className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
@@ -91,13 +92,14 @@ export default function StarLifeHealthMain() {
               style={{ width: 70, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
-              Star Out patient {"\n"} Care Insurance {"\n"}Policy{" "}
+              Star Out Patient {"\n"} Care Insurance {"\n"}Policy{" "}
             </Text>
           </TouchableOpacity>
         </View>
 
         <View className="items-center mb-5">
           <TouchableOpacity
+            onPress={() => navigation.navigate("StarSurplusInsurance")}
             style={{ width: 155, height: 130 }}
             className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
