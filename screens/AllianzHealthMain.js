@@ -39,9 +39,9 @@ export default function AllianzHealthMain() {
             className=" bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/motor.png")}
+              source={require("../assets/Images/FamilyHome.png")}
               className="mt-7"
-              style={{ width: 70, height: 50 }}
+              style={{ width: 45, height: 45 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
               Family Love Plan
