@@ -82,7 +82,7 @@ export default function AllianzHealthMain() {
           </TouchableOpacity>
 
           <TouchableOpacity
-            
+            onPress={() => navigation.navigate("AllianzBancassurance")}
             style={{ width: 155, height: 130 }}
             className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
