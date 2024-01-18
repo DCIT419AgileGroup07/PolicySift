@@ -52,7 +52,7 @@ export default function HealthPolicy() {
               </View>
             </TouchableOpacity>
 
-            <TouchableOpacity>
+            <TouchableOpacity onPress={() => navigation.navigate("AllianzHealthMain")}>
               <View
                 className="my-7 "
                 style={{ height: 1, backgroundColor: "black" }}

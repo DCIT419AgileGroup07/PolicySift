@@ -80,6 +80,8 @@ import AssuredChildEducation from './screens/AssuredChildEducation';
 
 
 
+
+
 import GlicoHealthMain from './screens/GlicoHealthMain'
 import StarLifeEmployeeSec from './screens/StarLifeEmployeeSec'
 
@@ -140,13 +142,6 @@ const AppNavigator = () => (
 
 
 
-
-
-
-   
-
-      
-      
      
     
       <Stack.Screen name='Account' component={Account}/>
