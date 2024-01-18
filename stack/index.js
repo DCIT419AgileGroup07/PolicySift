@@ -25,8 +25,8 @@ const RootNavigator = () => {
     return(
         <Stack.Navigator screenOptions={{headerShown:false }}>
             <Stack.Screen name='HomeStack' component={HomeStackNavigator}/>
-            <Stack.Screen name='ClaimsStack' component={ClaimsStackNavigator}/>
-            <Stack.Screen name='InsuranceStack' component={InsuranceStackNavigator}/>
+            {/* <Stack.Screen name='ClaimsStack' component={ClaimsStackNavigator}/>
+            <Stack.Screen name='InsuranceStack' component={InsuranceStackNavigator}/> */}
             <Stack.Screen name='ProfileStack' component={ProfileStackNavigator}/>
         </Stack.Navigator>
     )
@@ -39,11 +39,11 @@ const HomeTabs = () => {
         <Tab.Screen name='Home' component={WhatPolicy} options={{gestureDirection: false, gestureEnabled: false ,tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="home" color={color} size={26} />)}} />
 
-        <Tab.Screen name='Insurance' component={InsuranceStackNavigator} options={{ tabBarIcon: ({ color }) => (
+        {/* <Tab.Screen name='Insurance' component={InsuranceStackNavigator} options={{ tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="shield" color={color} size={26} />)}}/>
         
         <Tab.Screen name='Claims' component={ClaimsStackNavigator} options={{ tabBarIcon: ({ color }) => (
-        <MaterialCommunityIcons name="hand-coin" color={color} size={26} />)}}/>
+        <MaterialCommunityIcons name="hand-coin" color={color} size={26} />)}}/> */}
         
         <Tab.Screen name='Profile' component={ProfileStackNavigator} options={{ tabBarIcon: ({ color }) => (
         <MaterialCommunityIcons name="account" color={color} size={26} />)}}/>
