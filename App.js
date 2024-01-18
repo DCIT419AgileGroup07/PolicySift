@@ -68,6 +68,12 @@ import AssuredInvestmentHealth from './screens/AssuredInvestmentHealth';
 import AssuredChildEducation from './screens/AssuredChildEducation';
 import AllianzBancassurance from './screens/AllianzBancassurance';
 import HollardHealthMain from './screens/HollardHealthMain';
+import HealthInsurancePlan from './screens/HealthInsurancePlan';
+
+
+
+
+
 
 
 
@@ -142,6 +148,11 @@ const AppNavigator = () => (
       <Stack.Screen name='AssuredChildEducation' component={AssuredChildEducation}/>
       <Stack.Screen name='AllianzBancassurance' component={AllianzBancassurance}/>
       <Stack.Screen name='HollardHealthMain' component={HollardHealthMain}/>
+      <Stack.Screen name='HealthInsurancePlan' component={HealthInsurancePlan}/>
+
+
+
+
 
 
 

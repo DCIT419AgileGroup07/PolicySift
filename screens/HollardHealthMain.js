@@ -34,7 +34,7 @@ export default function HollardHealthMain() {
 
         <View className="flex-row">
           <TouchableOpacity
-            
+            onPress={() => navigation.navigate("HealthInsurancePlan")} 
             style={{ width: 155, height: 130 }}
             className=" bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
@@ -49,7 +49,7 @@ export default function HollardHealthMain() {
           </TouchableOpacity>
 
           <TouchableOpacity
-            
+          onPress={() => navigation.navigate("EssentialHealthPlan")} 
             style={{ width: 155, height: 130 }}
             className=" bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
