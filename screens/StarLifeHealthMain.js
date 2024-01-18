@@ -38,9 +38,9 @@ export default function StarLifeHealthMain() {
             className=" bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/motor.png")}
+              source={require("../assets/Images/SingleWomanCircle.png")}
               className="mt-7"
-              style={{ width: 70, height: 50 }}
+              style={{ width: 50, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
               Star Women Care
@@ -54,9 +54,9 @@ export default function StarLifeHealthMain() {
             className=" bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/Homeowner.png")}
+              source={require("../assets/Images/Bandaid.png")}
               className="mt-7"
-              style={{ width: 70, height: 50 }}
+              style={{ width: 45, height: 45 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
               Star Comprehensive {"\n"} Insurance Policy
@@ -71,9 +71,9 @@ export default function StarLifeHealthMain() {
             className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/Accident_1.png")}
+              source={require("../assets/Images/HealthEmergencySignal.png")}
               className="mt-4"
-              style={{ width: 70, height: 50 }}
+              style={{ width: 45, height: 45 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
               Star Health {"\n"} Premier {"\n"} Insurances Policy
@@ -86,9 +86,9 @@ export default function StarLifeHealthMain() {
             className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/Guide_policy.png")}
+              source={require("../assets/Images/HealthcareSearch.png")}
               className="mt-4"
-              style={{ width: 70, height: 50 }}
+              style={{ width: 45, height: 45 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
               Star Out Patient {"\n"} Care Insurance {"\n"}Policy{" "}
@@ -103,9 +103,9 @@ export default function StarLifeHealthMain() {
             className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
             <Image
-              source={require("../assets/Images/plane.png")}
+              source={require("../assets/Images/MedicinePhone.png")}
               className="mt-7"
-              style={{ width: 130, height: 50 }}
+              style={{ width: 45, height: 45 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
               Star Surplus {"\n"}Insurance Policy{" "}

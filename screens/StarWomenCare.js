@@ -36,11 +36,10 @@ export default function StarWomenCare() {
         <Text className="text-teal-50 mt-3 mb-5 text-center  font-bold">
           Star Women Care Insurance Policy
         </Text>
-        <View className="flex-row mb-5 items-center justify-center">
+        <View className="flex-row mb-5 justify-center">
           <View
             style={{ width: 160, height: 160 }}
-            className="border border-teal-50  mt-1 mx-2 p-1 rounded-l"
-          >
+            className="border border-teal-50  mt-1 mx-2 rounded-l">
             <Text className="text-teal-50 mt-1 mb-6 text-center text-xs font-bold">
               Maternity Benefit
             </Text>
@@ -65,7 +64,7 @@ export default function StarWomenCare() {
           </View>
         </View>
 
-        <View className="flex-row mb-20 items-center justify-center">
+        <View className="flex-row mb-6 justify-center">
           <View
             style={{ width: 160, height: 160 }}
             className="border border-teal-50  mx-2 mt-1 p-1 rounded-l"
