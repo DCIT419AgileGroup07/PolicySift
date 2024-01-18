@@ -24,7 +24,7 @@ export default function HealthPolicy() {
                 color={"black"}
               />
             </TouchableOpacity>
-            <Text className="text-3xl mx-8 text-[#115E67] font-bold">
+            <Text className="text-3xl mx-4 text-[#115E67] font-bold">
               HEALTH INSURANCE
             </Text>
           </View>
