@@ -25,15 +25,15 @@ export default function StarMotor() {
       <View className="flex-row justify-center ">
         <Image source={require("../assets/Images/starlife.png")} />
       </View>
-
+      <ScrollView>
       <View className="flex-row justify-center">
         <Text className="font-extrabold mt-5 text-teal-900">
           Star Motor Insuarance Company
         </Text>
       </View>
 
-      <ScrollView>
-      <View className="bg-[#115E67] mt-5 mx-5 elevation rounded-xl items-center">
+
+      <View className="bg-[#115E67] mb-5 mx-5 elevation rounded-xl items-center">
         <Text className="font-medium text-white mt-5 mx-3 ">
           Our motor policy is designed to cover the legal liabilities of our
           insured as a result of the use of the motor vehicle and loss or damage

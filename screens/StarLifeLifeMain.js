@@ -28,13 +28,9 @@ export default function StarLifeLifeMain() {
         <View className="py-4 bg-[#115E67] mt-12 mb-3 mx-20 rounded-xl items-center">
           <Text className="font-bold text-white">STAR LIFE INSURANCE </Text>
         </View>
-        <View className="flex-row">
-           <TouchableOpacity onPress={() => navigation.navigate("StarLifeInsurance")} style={{width: 250, height: 200}} className=" bg-teal-50 elevation mt-20  ml-12 rounded-l items-center">
-              <Image source={require("../assets/Images/InsuranceHands.png")} className='mt-7' style={{width: 70, height: 50}} />
-              </TouchableOpacity>
-        </View>     
-        <View className="items-center">
-           <TouchableOpacity onPress={() => navigation.navigate("StarLifeEmployeeSec")} style={{width: 250, height: 200}} className=" bg-teal-50 elevation mt-20 rounded-l items-center">
+    
+        <View className="items-center mb-5">
+           <TouchableOpacity onPress={() => navigation.navigate("StarLifeInsurance")} style={{width: 250, height: 200}} className=" bg-teal-50 elevation mt-20 rounded-l items-center">
               <Image source={require("../assets/Images/InsuranceHands.png")} className='mt-16 items-center' style={{width: 70, height: 50}} />
               <Text className='text-teal-800 mt-1 text-xs text-center font-medium'>Employee Security {"\n"} Plan (Group Life) </Text>
             </TouchableOpacity>

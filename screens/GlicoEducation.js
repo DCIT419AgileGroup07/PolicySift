@@ -53,7 +53,7 @@ export default function GlicoEducation() {
           and the Policyholder also enjoys Premium Holiday
         </Text>
 
-        <Text className="font-medium text-white mx-3 mb-60 ">
+        <Text className="font-medium text-white mx-3 mb-6">
           The Policyholder can make a Partial Withdrawal on the accumulated
           savings amount annually. The policy term is a minimum duration of 8
           years and a maximum of 25 years.

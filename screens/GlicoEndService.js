@@ -44,7 +44,7 @@ export default function GlicoEndService() {
         <Text className="font-medium text-white mx-3 ">
           · Accident Disability
         </Text>
-        <Text className="font-medium text-white mx-60 ">
+        <Text className="font-medium text-white mx-6">
           · Hospital Cash Income
         </Text>
       </View>

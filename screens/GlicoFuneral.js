@@ -57,7 +57,7 @@ export default function GlicoFuneral() {
         <Text className="font-medium text-white mx-3 ">
           · Loyalty or Cashback
         </Text>
-        <Text className="font-medium text-white mx-3 mb-60 ">
+        <Text className="font-medium text-white mx-3 mb-6">
           · Premium Holiday
         </Text>
       </View>
