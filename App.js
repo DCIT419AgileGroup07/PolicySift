@@ -62,6 +62,15 @@ import StarOutPatient from './screens/StarOutPatient';
 import StarSurplusInsurance from './screens/StarSurplusInsurance';
 
 
+import AllianzHealthMain from './screens/AllianzHealthMain';
+import FamilyLovePlan from './screens/FamilyLovePlan';
+import AssuredInvestmentHealth from './screens/AssuredInvestmentHealth';
+import AssuredChildEducation from './screens/AssuredChildEducation';
+
+
+
+
+
 
 
 
@@ -112,12 +121,22 @@ const AppNavigator = () => (
       <Stack.Screen name='GlicoMarine' component={GlicoMarine}/>
       <Stack.Screen name='GlicoSpecialty' component={GlicoSpecialty}/>
       <Stack.Screen name='GlicoFire' component={GlicoFire}/>
+
       <Stack.Screen name='StarLifeHealthMain' component={StarLifeHealthMain}/>
       <Stack.Screen name='StarWomenCare' component={StarWomenCare}/>
       <Stack.Screen name='StarHealthComprehensive' component={StarHealthComprehensive}/>
       <Stack.Screen name='StarHealthPremier' component={StarHealthPremier}/>
       <Stack.Screen name='StarOutPatient' component={StarOutPatient}/>
       <Stack.Screen name='StarSurplusInsurance' component={StarSurplusInsurance}/>
+
+      <Stack.Screen name='AllianzHealthMain' component={AllianzHealthMain}/>
+      <Stack.Screen name='FamilyLovePlan' component={FamilyLovePlan}/>
+      <Stack.Screen name='AssuredInvestmentHealth' component={AssuredInvestmentHealth}/>
+      <Stack.Screen name='AssuredChildEducation' component={AssuredChildEducation}/>
+
+
+
+
 
 
 

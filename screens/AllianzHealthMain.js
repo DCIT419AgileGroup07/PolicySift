@@ -4,7 +4,7 @@ import { useNavigation } from "@react-navigation/core";
 import { SafeAreaView } from "react-native-safe-area-context";
 import MaterialCommunityIcons from "react-native-vector-icons/MaterialCommunityIcons";
 
-export default function StarLifeHealthMain() {
+export default function AllianzHealthMain() {
   const navigation = useNavigation();
   return (
     <SafeAreaView>
@@ -24,16 +24,17 @@ export default function StarLifeHealthMain() {
         </View>
 
         <View className="flex-row justify-center ">
-          <Image source={require("../assets/Images/starlife.png")} />
+          <Image source={require("../assets/Images/Allianz.png")} />
         </View>
 
         <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-20 rounded-xl items-center">
-             <Text className='font-bold text-white'>STARLIFE HEALTH INSURANCE</Text>
+             <Text className='font-bold text-white'>ALLIANZ HEALTH INSURANCE</Text>
+          
         </View>
 
         <View className="flex-row">
           <TouchableOpacity
-            onPress={() => navigation.navigate("StarWomenCare")}
+            onPress={() => navigation.navigate("FamilyLovePlan")}
             style={{ width: 155, height: 130 }}
             className=" bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
@@ -43,13 +44,12 @@ export default function StarLifeHealthMain() {
               style={{ width: 70, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
-              Star Women Care
-              {"\n"} Insurance Policy
+              Family Love Plan
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => navigation.navigate("StarHealthComprehensive")}
+            onPress={() => navigation.navigate("AssuredInvestmentHealth")}
             style={{ width: 155, height: 130 }}
             className=" bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
@@ -59,14 +59,14 @@ export default function StarLifeHealthMain() {
               style={{ width: 70, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
-              Star Comprehensive {"\n"} Insurance Policy
+                Assured investment Plan
             </Text>
           </TouchableOpacity>
         </View>
 
-        <View className="flex-row">
+        <View className="flex-row mb-5">
           <TouchableOpacity
-            onPress={() => navigation.navigate("StarHealthPremier")}
+            onPress={() => navigation.navigate("AssuredChildEducation")}
             style={{ width: 155, height: 130 }}
             className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
           >
@@ -76,12 +76,13 @@ export default function StarLifeHealthMain() {
               style={{ width: 70, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
-              Star Health {"\n"} Premier {"\n"} Insurances Policy
+                Assured Child Education
+                {"\n"} Plan 
             </Text>
           </TouchableOpacity>
 
           <TouchableOpacity
-            onPress={() => navigation.navigate("StarOutPatient")}
+            
             style={{ width: 155, height: 130 }}
             className="bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
           >
@@ -91,27 +92,12 @@ export default function StarLifeHealthMain() {
               style={{ width: 70, height: 50 }}
             />
             <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
-              Star Out Patient {"\n"} Care Insurance {"\n"}Policy{" "}
+                Bancassurance
             </Text>
           </TouchableOpacity>
         </View>
 
-        <View className="items-center mb-5">
-          <TouchableOpacity
-            onPress={() => navigation.navigate("StarSurplusInsurance")}
-            style={{ width: 155, height: 130 }}
-            className="bg-teal-50 elevation mt-7  ml-8  rounded-l items-center"
-          >
-            <Image
-              source={require("../assets/Images/plane.png")}
-              className="mt-7"
-              style={{ width: 130, height: 50 }}
-            />
-            <Text className="text-teal-800 mt-1 text-xs text-center  font-medium">
-              Star Surplus {"\n"}Insurance Policy{" "}
-            </Text>
-          </TouchableOpacity>
-        </View>
+     
       </ScrollView>
     </SafeAreaView>
   );
