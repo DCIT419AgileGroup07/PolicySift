@@ -28,11 +28,12 @@ export default function StarLifeInsurance() {
 
       <View className="flex-row justify-center">
         <Text className="font-extrabold mt-5 text-teal-900">
-          Star Life Insurance Policy
+          Employee Security Plan
         </Text>
       </View>
 
       <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-4 elevation rounded-xl ">
+        <Text className="font-extrabold text-center mb-3 text-white">Employee Security Plan</Text>
         <Text className="font-medium text-white mx-3 mb-3 ">
           The Employee Security Plan [ESP] is a comprehensive group life policy
           which also provides optional cover for a section of the employee’s
@@ -44,11 +45,11 @@ export default function StarLifeInsurance() {
           Schedule will be paid to you in the event of:
         </Text>
 
-        <Text className="font-medium text-white mx-3 mb-3 mb-2 ">
+        <Text className="font-medium text-white mx-3 mb-3">
           ·Death resulting from natural or accidental causes on or off the job
         </Text>
 
-        <Text className="font-medium text-white mx-3 mb-3 mb-3 ">
+        <Text className="font-medium text-white mx-3 mb-3 ">
           · Total and Permanent disability arising from disease or injury
         </Text>
         <Text className="font-medium text-white mx-3 mb-4 ">

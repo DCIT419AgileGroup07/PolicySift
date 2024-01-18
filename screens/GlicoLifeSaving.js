@@ -66,7 +66,7 @@ export default function GlicoLifeSaving() {
         </Text>
         <Text className="font-medium text-white mx-3 ">· Incontestability</Text>
         <Text className="font-medium text-white mx-3 ">· Non-forfeiture</Text>
-        <Text className="font-medium text-white mx-3 mb-60 ">
+        <Text className="font-medium text-white mx-3 mb-6">
           · Reinstatement
         </Text>
       </View>

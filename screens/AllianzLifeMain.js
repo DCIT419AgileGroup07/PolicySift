@@ -26,15 +26,14 @@ export default function AllianzLifeMain() {
         </View>
 
         <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-20 rounded-xl items-center">
-          <Text className="font-bold text-white">ALLIAZ LIFE INSURANCE</Text>
+          <Text className="font-bold text-white">ALLIANZ LIFE INSURANCE</Text>
         </View>
-
-        <View className="flex-row">
+        <View className='mb-5'>
+        <View className="flex-row justify-center items-center">
           <TouchableOpacity
             onPress={() => navigation.navigate("AllianzWealth")}
             style={{ width: 150, height: 130 }}
-            className=" bg-teal-50 elevation mt-7  ml-4  rounded-l items-center"
-          >
+            className=" bg-teal-50 elevation mt-7 rounded-l items-center">
             <Image
               source={require("../assets/Images/familyinsuranceupdated_1.png")}
               className="mt-7"
@@ -48,7 +47,7 @@ export default function AllianzLifeMain() {
           <TouchableOpacity
             onPress={() => navigation.navigate("AllianzFarewell")}
             style={{ width: 150, height: 130 }}
-            className=" bg-teal-50 elevation mt-7  mx-7 rounded-l items-center"
+            className=" bg-teal-50 elevation mt-7 mx-7 rounded-l items-center"
           >
             <Image
               source={require("../assets/Images/funeralservice_1.png")}
@@ -61,11 +60,11 @@ export default function AllianzLifeMain() {
           </TouchableOpacity>
         </View>
 
-        <View className="flex-row">
+        <View className="flex-row justify-center items-center">
           <TouchableOpacity
             onPress={() => navigation.navigate("AllianzEduflex")}
             style={{ width: 150, height: 130 }}
-            className="bg-teal-50 elevation mt-7  ml-4  rounded-l items-center"
+            className="bg-teal-50 elevation mt-7 rounded-l items-center"
           >
             <Image
               source={require("../assets/Images/ChildInsurance_1.png")}
@@ -91,6 +90,7 @@ export default function AllianzLifeMain() {
               Allianz Term {"\n"} Life{" "}
             </Text>
           </TouchableOpacity>
+        </View>
         </View>
       </ScrollView>
     </SafeAreaView>

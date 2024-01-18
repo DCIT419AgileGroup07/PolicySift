@@ -32,11 +32,11 @@ export default function HollardAdepaFamily() {
 
       <View className="py-4 bg-[#115E67] mt-5 mb-5 mx-4 elevation rounded-xl ">
 
-      <Text className="font-medium text-white mx-3 mt-5 mb-2 mx-4 items-center ml-24">
+      <Text className="font-medium text-white mx-3 mt-5 mb-2 items-center ml-24">
       Adepa Famly Plan 
         </Text>
 
-         <Text className="font-medium text-white mx-3 mb-8 mx-4 items-center ml-8 ">
+         <Text className="font-medium text-white mx-3 mb-8 items-center ml-8 ">
          Benefits of an Adepa Funeral Plan Include
         </Text>  
 
@@ -58,7 +58,7 @@ export default function HollardAdepaFamily() {
           · No premium payment upon retirement 
             and also upon death of the policyholder
         </Text>
-        <Text className="font-medium text-white mx-3 mb-60 ">
+        <Text className="font-medium text-white mx-3 mb-6 ">
           · Free insurance cover up to five children 
             of the policyholder
         </Text>

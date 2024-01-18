@@ -23,7 +23,7 @@ export default function GeneralPolicy() {
               color={"black"}
             />
           </TouchableOpacity>
-          <Text className="text-3xl mx-4 text-[#115E67] font-bold">
+          <Text className="text-3xl mx-2 text-[#115E67] font-bold">
             GENERAL INSURANCE
           </Text>
         </View>

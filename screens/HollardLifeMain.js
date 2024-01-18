@@ -54,8 +54,7 @@ export default function HollardLifeMain() {
           <TouchableOpacity
             onPress={() => navigation.navigate("StarMotor")}
             style={{ width: 250, height: 180 }}
-            className=" bg-teal-50 elevation mt-7  ml-12  rounded-l items-center"
-          >
+            className=" bg-teal-50 elevation mt-7  ml-12  rounded-l items-center">
             <Image
               source={require("../assets/Images/FamilyHeart.png")}
               className="mt-7"
@@ -63,23 +62,6 @@ export default function HollardLifeMain() {
             />
             <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
               Adepa Family Plan{" "}
-            </Text>
-          </TouchableOpacity>
-        </View>
-
-        <View className="flex-row">
-          <TouchableOpacity
-            onPress={() => navigation.navigate("StarComprehensive")}
-            style={{ width: 250, height: 180 }}
-            className=" bg-teal-50 elevation mt-7  mx-12 rounded-l items-center"
-          >
-            <Image
-              source={require("../assets/Images/SingleNeutralCircle.png")}
-              className="mt-7"
-              style={{ width: 70, height: 70 }}
-            />
-            <Text className="text-teal-800 mt-1 text-xs text-center font-medium">
-              Purple Employee Plan{" "}
             </Text>
           </TouchableOpacity>
         </View>

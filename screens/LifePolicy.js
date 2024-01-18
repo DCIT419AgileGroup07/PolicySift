@@ -23,7 +23,7 @@ export default function LifePolicy() {
               color={"black"}
             />
           </TouchableOpacity>
-          <Text className="text-3xl mx-12 text-[#115E67] font-bold">
+          <Text className="text-3xl mx-8 text-[#115E67] font-bold">
             LIFE INSURANCE
           </Text>
         </View>

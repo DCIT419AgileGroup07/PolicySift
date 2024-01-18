@@ -23,7 +23,7 @@ export default function AllianzWealth() {
       </View>
 
       <View className="flex-row justify-center ">
-        <Image source={require("../assets/Images/img5.png")} />
+        <Image source={require("../assets/Images/Allianz.png")} />
       </View>
 
       <View className="flex-row justify-center">
@@ -32,13 +32,13 @@ export default function AllianzWealth() {
         </Text>
       </View>
 
-      <View className="py-4 bg-[#115E67] mt-2 mx-4 elevation rounded-xl ">
+      <View className="bg-[#115E67] mt-2 mx-4 elevation rounded-xl mb-16">
 
-      <Text className="font-small text-white mx-3 font-bold mb-2 ml-24 justify-center items-center ">
+      <Text className="font-small text-white mx-3 font-bold my-2 text-center ">
       Allianz Farewell  Plus 
                 </Text>
-        <View className="flex-row">
-            <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "style={{width: 152, height: 200}} >
+        <View className="flex-row justify-center">
+            <View className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1" style={{width: 152, height: 200}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
                 <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Accidental death
@@ -58,8 +58,10 @@ export default function AllianzWealth() {
                 </Text>
             </View>
         </View> 
-        <View className="flex-row">
-            <View className=" border-2 border-[#fcffff] rounded-md mb-60 w-full mt-1  ml-2 "style={{width: 152, height: 220}} >
+
+
+        <View className="flex-row justify-center">
+            <View className=" border-2 border-[#fcffff] rounded-md mb-6 w-full mt-1"style={{width: 152, height: 220}} >
             <Image source={require("../assets/Images/Vector.png")} className='mt-2 ml-12' style={{width: 25, height: 20}} />
                 <Text className="font-small text-white mb-1 mx-3 font-bold ">
                 Loyalty benefit
@@ -79,86 +81,7 @@ export default function AllianzWealth() {
                 </Text>
             </View>
         </View> 
-        
-        <Text className="font-small text-white mx-3 font-bold mb-5 ml-16 justify-center items-center ">
-          Allianz Farewell Plus
-        </Text>
-        <View className="flex-row">
-          <View
-            className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "
-            style={{ width: 152, height: 200 }}
-          >
-            <Image
-              source={require("../assets/Images/Vector.png")}
-              className="mt-2 ml-12"
-              style={{ width: 25, height: 20 }}
-            />
-            <Text className="font-small text-white mx-3 font-bold ">
-              Accidental death
-            </Text>
-            <Text className="font-small text-white mx-3 font-light ">
-              Allianz Life shall pay 200% of the Sum Assured of the policy. No
-              waiting period applies.
-            </Text>
-          </View>
-
-          <View
-            className=" border-2 border-[#fcffff] rounded-md mb- w-full mt-1  ml-2 "
-            style={{ width: 152, height: 200 }}
-          >
-            <Image
-              source={require("../assets/Images/Vector.png")}
-              className="mt-2 ml-12"
-              style={{ width: 25, height: 20 }}
-            />
-            <Text className="font-small text-white mx-3 font-bold ">
-              Death after waiting period
-            </Text>
-            <Text className="font-small text-white mx-3 font-light ">
-              Allianz Life shall pay 100% of the current sum assured of the
-              policy.
-            </Text>
-          </View>
         </View>
-        <View className="flex-row">
-          <View
-            className=" border-2 border-[#fcffff] rounded-md mb-60 w-full mt-1  ml-2 "
-            style={{ width: 152, height: 220 }}
-          >
-            <Image
-              source={require("../assets/Images/Vector.png")}
-              className="mt-2 ml-12"
-              style={{ width: 25, height: 20 }}
-            />
-            <Text className="font-small text-white mx-3 font-bold ">
-              Loyalty benefit
-            </Text>
-            <Text className="font-small text-white mx-3 font-light ">
-              If a policyholder consistently pays premiums, every 2 years, the
-              policy holder will enjoy a benefit worth one (1) month premium
-            </Text>
-          </View>
-
-          <View
-            className=" border-2 border-[#fcffff] rounded-md mb-2 w-full mt-1  ml-2 "
-            style={{ width: 152, height: 220 }}
-          >
-            <Image
-              source={require("../assets/Images/Vector.png")}
-              className="mt-2 ml-12"
-              style={{ width: 25, height: 20 }}
-            />
-            <Text className="font-small text-white mx-3 font-bold ">
-              Waiver premium
-            </Text>
-            <Text className="font-small text-white mx-3 font-light ">
-              For policyholder who started the policy at ages between 18 and 50,
-              premium payment will cease upon attainment of age 60 or upon
-              death, which ever happens first.
-            </Text>
-          </View>
-        </View>
-      </View>
     </SafeAreaView>
   );
 }
